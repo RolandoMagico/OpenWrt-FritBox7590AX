@@ -14,3 +14,13 @@ O  RX
 [] VCC
 ```
 Do NOT connect VCC. UART settings: 115200, 8N1.
+
+## Wifi
+
+### 2.4 GHz
+
+- WAV614A1MC-S-LN24 with SKY33021 frontend
+
+### 5 GHz
+
+- WAV624A1MC-S-LN25 with QPF4530 frontend
