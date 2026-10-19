@@ -1,0 +1,963 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2026.10.19 07:17:39 =~=~=~=~=~=~=~=~=~=~=~=
+
+ROM VER: 2.1.0
+CFG 09
+B
+.
+.
+.
+
+*
+
+ROM VER: 2.1.0
+CFG 09
+B
+.
+.
+.
+
+*
+*
+*
+*
+Detected PXB4583el V1.2-2000
+
+[piglet] Skipped, because of Subrevision without FPGA
+
+(AVM) EVA Revision: 1.11744 55a8fb62
+(C) Copyright 2018 AVM Date: Nov  8 2021 Time: 11:53:20 (0) 3 0x0-0x46409
+
+[NAND:] 512MB TOSHIBA 4096 Pagesize 256k Blocksize 2048 Blocks HW
+[SYSTEM:] GRX5 (ID 0x24 Revision 2) on 1000MHz/600MHz/666MHz
+..
+
+Eva_AVM >#.............................................................................................................
+Using Device Tree Blob of SubRevision 0 
+
+-------------------------------------------
+
+
+
+      Switching to Bootcore Console
+
+
+-------------------------------------------
+[    0.000000] Linux version 4.9.198 (jenkins@jenkins-ci.avm.de) (gcc version 8.3.0 (Buildroot 2018.11.4-gb385ae7957) ) #1 2021-04-13
+[    0.000000] avm_check_isa_features: isa_level 0x00000031
+[    0.000000] avm_check_cpu_features: mips-options (cache flags preliminary!): 0x000000c00059638b ases 0x00000001
+[    0.000000] avm_check_cpu_features: (preliminary flags: MIPS_CPU_CACHE_CDEX_P MIPS_CPU_PREFETCH MIPS_CPU_INCLUSIVE_CACHES MIPS_CPU_CACHE_CDEX_S)
+[    0.000000] SoC: GRX500 rev 1.2
+[    0.000000] bootconsole [early0] enabled
+[    0.000000] CPU0 revision is: 00019074 (MIPS 4KEc)
+[    0.000000] MIPS: machine is GRX550 ANYWAN BOOTCORE (MIPS 4Kec)
+[    0.000000] bootconsole [early0] enabled
+[    0.000000] Determined physical RAM map:
+[    0.000000]  memory: 02000000 @ 0e000000 (usable)
+[    0.000000]  memory: 00001a80 @ 0e781030 (reserved)
+[    0.000000]  memory: 00040000 @ 0dfc0000 (reserved)
+[    0.000000] Initial ramdisk at: 0x8e000000 (4194304 bytes)
+[    0.000000] avm_check_pcache_features: mips-options (preliminary MIPS_CPU_CACHE_CDEX_S flag): 0x000000c0005d638b icache.flags 0x00000000 dcache.flags 0x00000004
+[    0.000000] Primary instruction cache 32kB, VIPT, 4-way, linesize 16 bytes.
+[    0.000000] Primary data cache 32kB, 4-way, VIPT, cache aliases, linesize 16 bytes
+[    0.000000] avm_check_scache_features: mips-options: 0x000000c0005d638b
+[    0.000000] Zone ranges:
+[    0.000000]   Normal   [mem 0x000000000e000000-0x000000000fffffff]
+[    0.000000] Movable zone start for each node
+[    0.000000] Early memory node ranges
+[    0.000000]   node   0: [mem 0x000000000e000000-0x000000000fffffff]
+[    0.000000] Initmem setup node 0 [mem 0x000000000e000000-0x000000000fffffff]
+[    0.000000] On node 0 totalpages: 8192
+[    0.000000] free_area_init_node: node 0, pgdat 8e780620, node_mem_map 8f005580
+[    0.000000]   Normal zone: 64 pages used for memmap
+[    0.000000]   Normal zone: 0 pages reserved
+[    0.000000]   Normal zone: 8192 pages, LIFO batch:0
+[    0.000000] [fw-info] Version 07.31
+[    0.000000] pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+[    0.000000] pcpu-alloc: [0] 0 
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 8128
+[    0.000000] Kernel command line: console=ttyLTQ0,115200n8r root=/dev/ram rw loglevel=8
+[    0.000000] PID hash table entries: 128 (order: -3, 512 bytes)
+[    0.000000] Dentry cache hash table entries: 4096 (order: 2, 16384 bytes)
+[    0.000000] Inode-cache hash table entries: 2048 (order: 1, 8192 bytes)
+[    0.000000] Memory: 24076K/32768K available (2651K kernel code, 394K rwdata, 736K rodata, 180K init, 258K bss, 8692K reserved, 0K cma-reserved)
+[    0.000000] SLUB: HWalign=32, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+[    0.000000] NR_IRQS:527
+[    0.000000] grx500_bootcore_register_static_irq: irq_in = 0x0000001f, irq_out = 0x0000001f
+[    0.000000] grx500_bootcore_register_static_irq: mapper_reg = 0x0000015c, mapper_offset = 0x00000000
+[    0.000000] EXCEP_remap_line: int_line = 0x0000001f, map_address = 0x0000015c, num = 0x00000000 
+[    0.000000] EXCEP_remap_line: org_map = 0x00000000, result_map = 0x0000001f 
+[    0.000000] CPU Clock: 300MHz
+[    0.000000] clocksource: MIPS: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 12741736309 ns
+[    0.000021] sched_clock: 32 bits at 150MHz, resolution 6ns, wraps every 14316557820ns
+[    0.015350] : grx500_bootcore_console_init: call register
+[    0.025725] console [ttyLTQ0] enabled
+[    0.025725] console [ttyLTQ0] enabled
+[    0.036194] bootconsole [early0] disabled
+[    0.036194] bootconsole [early0] disabled
+[    0.047713] bootconsole [early0] disabled
+[    0.047713] bootconsole [early0] disabled
+[    0.055696] Calibrating delay loop... 299.26 BogoMIPS (lpj=598528)
+[    0.094103] pid_max: default: 32768 minimum: 301
+[    0.099170] Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.105596] Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.121436] devtmpfs: initialized
+[    0.129175] ngi: Protecting Bootcore: [0x2e000000, 0x2fffffff]
+[    0.134833] ngi: 512MB attached. Protecting: [0x40000000, 0x9fffffff]
+[    0.141184] ngi: Unattached: [0x60000000, 0x9fffffff]
+[    0.146195] ngi: Unattached: [0x40000000, 0x5fffffff]
+[    0.151794] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+[    0.161413] futex hash table entries: 256 (order: -1, 3072 bytes)
+[    0.167676] pinctrl core: initialized pinctrl subsystem
+[    0.174235] NET: Registered protocol family 16
+[    0.192634] irq: no irq domain found for /interrupt-controller@0x14900140 !
+[    0.283433] clocksource: Switched to clocksource MIPS
+[    0.310799] NET: Registered protocol family 2
+[    0.317211] TCP established hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.324206] TCP bind hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.330429] TCP: Hash tables configured (established 1024 bind 1024)
+[    0.337286] UDP hash table entries: 256 (order: 0, 4096 bytes)
+[    0.343089] UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+[    0.349754] NET: Registered protocol family 1
+[    0.358025] Unpacking initramfs...
+[    1.107440] random: fast init done
+[    1.255667] Freeing initrd memory: 4096K
+[    1.266298] workingset: timestamp_bits=30 max_order=13 bucket_order=0
+[    1.331250] Serial: grx500_bootcore driver init
+[    1.339157] libphy: Fixed MDIO Bus: probed
+[    1.346514] NET: Registered protocol family 10
+[    1.360945] NET: Registered protocol family 17
+[    1.372659] Serial: grx500_bootcore driver startup
+[    1.377390] grx500_bootcore_register_static_irq: irq_in = 0x0000001c, irq_out = 0x00000008
+[    1.385477] grx500_bootcore_register_static_irq: mapper_reg = 0x00000158, mapper_offset = 0x00000003
+[    1.394564] EXCEP_remap_line: int_line = 0x00000008, map_address = 0x00000158, num = 0x00000003 
+[    1.403272] EXCEP_remap_line: org_map = 0x00000000, result_map = 0x00040000 
+[    1.415094] Freeing unused kernel memory: 180K
+[    1.419528] This architecture does not have kernel memory protection.
+[    1.600585] eip123_hw: module license 'Proprietary' taints kernel.
+[    1.606748] Disabling lock debugging due to kernel taint
+[    1.618669] eip123 1e000000.eip123: Detected hardware version 2.2.2
+[    1.624955] eip123 1e000000.eip123: my_id=0 master_id=0 num_mailboxes=4 mailbox_size=256
+[    1.632842] eip123 1e000000.eip123: Configured mailbox lockout: 0x00000000
+[    1.639660] eip123 1e000000.eip123: Linked mailbox number 1
+[    1.671496] eip123 1e000000.eip123: Sysinfo: FWVersion=2.4.2 HWVersion=2.2.2 MemorySize=32768 HostId=0 Identity=0 NVMAnomaly=0 NVMAnomalyLocation=0
+[    1.907441] eip123 1e000000.eip123: eip123_hw init successful
+[    1.940231] random: crng init done
+[    1.967468] eip123 1e000000.eip123: Device responded with error_src=0x0 error=0x1 opcode=0x1c
+[    1.975843] eip123 1e000000.eip123: Could not find rootkey in OTP
+[    1.982516] eip123 1e000000.eip123: Unlinked mailboxes
+[    2.033387] cpunet 1f107400.cpunet: slots=16 mtu=8192 mailbox_size=0x4c mempool_size=0x20000
+[    2.041895] cpunet 1f107400.cpunet: Initialized mailbox: rx=0xbf201100 tx=0xbf201000
+[    2.049990] cpunet 1f107400.cpunet: Initialized mempool: rx=0x8dfe0000 tx=0x8dfc0000 min_align=64
+[    2.058677] grx500_bootcore_register_static_irq: irq_in = 0x00000016, irq_out = 0x0000000b
+[    2.066845] grx500_bootcore_register_static_irq: mapper_reg = 0x00000154, mapper_offset = 0x00000003
+[    2.075928] EXCEP_remap_line: int_line = 0x0000000b, map_address = 0x00000154, num = 0x00000003 
+[    2.084643] EXCEP_remap_line: org_map = 0x00000000, result_map = 0x00058000 
+[    2.091764] cpunet 1f107400.cpunet: hw init successful
+[    2.143818] interaptiv_start: starting interaptiv
+
+-------------------------------------------
+
+
+
+      Switching to Interaptiv Console
+
+
+-------------------------------------------
+..
+[    0.000000] Linux version 4.9.198 (kbuild-team@jenkins-ci.avm.de) (gcc version 8.3.0 (Buildroot 2018.11.4-gc73018b701) ) #1 SMP 2021-11-10
+[    0.000000] avm_check_isa_features: isa_level 0x00000031
+[    0.000000] avm_check_cpu_features: mips-options (cache flags preliminary!): 0x000088c40e69638b ases 0x00000030
+[    0.000000] avm_check_cpu_features: (preliminary flags: MIPS_CPU_CACHE_CDEX_P MIPS_CPU_PREFETCH MIPS_CPU_INCLUSIVE_CACHES MIPS_CPU_CACHE_CDEX_S)
+[    0.000000] SoC: GRX500 rev 1.2
+[    0.000000] bootconsole [early0] enabled
+[    0.000000] CPU0 revision is: 0001a120 (MIPS interAptiv (multi))
+[    0.000000] Enhanced Virtual Addressing (EVA Legacy 512MB) activated
+[    0.000000] MIPS: machine is AVM7590ax (GRX550, HW259) Main model
+[    0.000000] Coherence Manager IOCU detected
+[    0.000000] Hardware DMA cache coherency disabled
+[    0.000000] OF: fdt:Reserved memory (avm): reserved region for property 'urlader': base 0x20010000, size 0x00030000
+[    0.000000] OF: fdt:Reserved memory (avm): reserved region for property 'VMB': base 0x20000000, size 0x00001000
+[    0.000000] OF: fdt:Reserved memory (avm): reserved region for property 'avm_reboot_string': base 0x20001000, size 0x00000200
+[    0.000000] Determined physical RAM map:
+[    0.000000]  memory: 10000000 @ 30000000 (usable)
+[    0.000000]  memory: 0e000000 @ 20000000 (usable)
+[    0.000000]  memory: 0000c05c @ 20fc1038 (reserved)
+[    0.000000]  memory: 00040000 @ 2dfc0000 (reserved)
+[    0.000000]  memory: 00400000 @ 20100000 (reserved)
+[    0.000000]  memory: 00030000 @ 20010000 (reserved)
+[    0.000000]  memory: 00001200 @ 20000000 (reserved)
+[    0.000000] cma: Reserved 64 MiB at 0x24000000
+[    0.000000] SMPCMP: CPU0: cmp_smp_setup
+[    0.000000] VPE topology {2,2} total 4
+[    0.000000] Detected 3 available secondary CPU(s)
+[    0.000000] avm_check_pcache_features: mips-options (preliminary MIPS_CPU_CACHE_CDEX_S flag): 0x000088c40e6d638b icache.flags 0x00000000 dcache.flags 0x00000020
+[    0.000000] Primary instruction cache 32kB, VIPT, 4-way, linesize 32 bytes.
+[    0.000000] Primary data cache 32kB, 4-way, PIPT, no aliases, linesize 32 bytes
+[    0.000000] MIPS secondary cache 256kB, 8-way, linesize 32 bytes.
+[    0.000000] avm_check_scache_features: mips-options: 0x000088c40e6d638b
+[    0.000000] Zone ranges:
+[    0.000000]   DMA      [mem 0x0000000020000000-0x0000000027ffffff]
+[    0.000000]   Normal   [mem 0x0000000028000000-0x000000003fffffff]
+[    0.000000] Movable zone start for each node
+[    0.000000] Early memory node ranges
+[    0.000000]   node   0: [mem 0x0000000020000000-0x000000002dffffff]
+[    0.000000]   node   0: [mem 0x0000000030000000-0x000000003fffffff]
+[    0.000000] Initmem setup node 0 [mem 0x0000000020000000-0x000000003fffffff]
+[    0.000000] [fw-info] Version 07.31
+[    0.000000] [module-mem] Use 0x284a7000-0x28decfff (mapped at 884a7000-88decfff) for 79 modules
+[    0.000000] percpu: Embedded 12 pages/cpu s18224 r8192 d22736 u49152
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 121728
+[    0.000000] Kernel command line: pcmlink.abmode=0x3 Piglet_noemif.piglet_dectmode=0x101 avm,noambient_brightness avm,noisdn avm,nopots audit=1
+[    0.000000] audit: enabled (after initialization)
+[    0.000000] PID hash table entries: 2048 (order: 1, 8192 bytes)
+[    0.000000] Dentry cache hash table entries: 65536 (order: 6, 262144 bytes)
+[    0.000000] Inode-cache hash table entries: 32768 (order: 5, 131072 bytes)
+[    0.000000] Writing ErrCtl register=00000000
+[    0.000000] Readback ErrCtl register=00000000
+[    0.000000] Memory: 388840K/491520K available (7764K kernel code, 1538K rwdata, 1708K rodata, 372K init, 6120K bss, 37144K reserved, 65536K cma-reserved)
+[    0.000000] SLUB: HWalign=32, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+[    0.000000] Hierarchical RCU implementation.
+[    0.000000] NR_IRQS:527
+[    0.000000] EIC is off
+[    0.000000] VINT is on
+[    0.000000] CPU Clock: 1000000000Hz  mips_hpt_frequency 500000000Hz
+[    0.000000] clocksource: gptc: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 9556302233 ns
+[    0.000009] sched_clock: 32 bits at 200MHz, resolution 5ns, wraps every 10737418237ns
+[    0.008431] Calibrating delay loop... 718.84 BogoMIPS (lpj=1437696)
+[    0.040921] pid_max: default: 32768 minimum: 301
+[    0.045749] Security Framework initialized
+[    0.049819] AppArmor: AppArmor initialized
+[    0.054009] Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.060642] Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.069236] CCA is coherent, multi-core is fine
+[    0.073689] avm_register_cpuid: cpu_id=0: LINUX core=0 tc=0
+[    0.079369] Performance counters: mips/interAptiv PMU enabled, 2 32-bit counters available to each CPU, irq 9
+GOT IPI to launch from CPU 1 
+GOT IPI to launch from CPU 2 
+GOT IPI to launch from CPU 3 
+[    0.092722] avm_check_isa_features: isa_level 0x00000031
+[    0.092762] avm_check_cpu_features: mips-options (cache flags preliminary!): 0x000088c40e6d638b ases 0x00000030
+[    0.092766] avm_check_cpu_features: (preliminary flags: MIPS_CPU_CACHE_CDEX_P MIPS_CPU_PREFETCH MIPS_CPU_INCLUSIVE_CACHES MIPS_CPU_CACHE_CDEX_S)
+[    0.092786] avm_check_pcache_features: mips-options (preliminary MIPS_CPU_CACHE_CDEX_S flag): 0x000088c40e6d638b icache.flags 0x00000000 dcache.flags 0x00000020
+[    0.092793] Primary instruction cache 32kB, VIPT, 4-way, linesize 32 bytes.
+[    0.092799] Primary data cache 32kB, 4-way, PIPT, no aliases, linesize 32 bytes
+[    0.092811] MIPS secondary cache 256kB, 8-way, linesize 32 bytes.
+[    0.092816] avm_check_scache_features: mips-options: 0x000088c40e6d638b
+[    0.093105] CPU1 revision is: 0001a120 (MIPS interAptiv (multi))
+[    0.120679] avm_register_cpuid: cpu_id=1: LINUX core=0 tc=1
+[    0.122946] avm_check_isa_features: isa_level 0x00000031
+[    0.122983] avm_check_cpu_features: mips-options (cache flags preliminary!): 0x000088c40e6d638b ases 0x00000030
+[    0.122987] avm_check_cpu_features: (preliminary flags: MIPS_CPU_CACHE_CDEX_P MIPS_CPU_PREFETCH MIPS_CPU_INCLUSIVE_CACHES MIPS_CPU_CACHE_CDEX_S)
+[    0.123007] avm_check_pcache_features: mips-options (preliminary MIPS_CPU_CACHE_CDEX_S flag): 0x000088c40e6d638b icache.flags 0x00000000 dcache.flags 0x00000020
+[    0.123014] Primary instruction cache 32kB, VIPT, 4-way, linesize 32 bytes.
+[    0.123020] Primary data cache 32kB, 4-way, PIPT, no aliases, linesize 32 bytes
+[    0.123031] MIPS secondary cache 256kB, 8-way, linesize 32 bytes.
+[    0.123035] avm_check_scache_features: mips-options: 0x000088c40e6d638b
+[    0.123180] CPU2 revision is: 0001a120 (MIPS interAptiv (multi))
+[    0.150958] avm_register_cpuid: cpu_id=2: LINUX core=1 tc=0
+[    0.153222] avm_check_isa_features: isa_level 0x00000031
+[    0.153260] avm_check_cpu_features: mips-options (cache flags preliminary!): 0x000088c40e6d638b ases 0x00000030
+[    0.153264] avm_check_cpu_features: (preliminary flags: MIPS_CPU_CACHE_CDEX_P MIPS_CPU_PREFETCH MIPS_CPU_INCLUSIVE_CACHES MIPS_CPU_CACHE_CDEX_S)
+[    0.153281] avm_check_pcache_features: mips-options (preliminary MIPS_CPU_CACHE_CDEX_S flag): 0x000088c40e6d638b icache.flags 0x00000000 dcache.flags 0x00000020
+[    0.153287] Primary instruction cache 32kB, VIPT, 4-way, linesize 32 bytes.
+[    0.153292] Primary data cache 32kB, 4-way, PIPT, no aliases, linesize 32 bytes
+[    0.153302] MIPS secondary cache 256kB, 8-way, linesize 32 bytes.
+[    0.153307] avm_check_scache_features: mips-options: 0x000088c40e6d638b
+[    0.153435] CPU3 revision is: 0001a120 (MIPS interAptiv (multi))
+[    0.181256] avm_register_cpuid: cpu_id=3: LINUX core=1 tc=1
+[    0.181535] Brought up 4 CPUs
+[    0.430184] avm_yield_setup: YIELD_PCMFRAME_ID       : id=0x0004000f: cpu=0 tc=4 prio=3 signal=15
+[    0.439118] avm_yield_setup: YIELD_PCMLINK_ID        : id=0x0003000c: cpu=0 tc=3 prio=2 signal=12
+[    0.448058] avm_yield_setup: YIELD_MONITOR_IPI0_ID   : id=0x0002000e: cpu=0 tc=2 prio=1 signal=14
+[    0.449561] random: fast init done
+[    0.460470] avm_yield_setup: YIELD_PROFILE_IPI0_ID   : id=0x0002000d: cpu=0 tc=2 prio=1 signal=13
+[    0.469865] [0][yield_context_init] cpu=0 tc=2 mask=6000 tc_prio=1
+[    0.476328] [0][yield_context_init] cpu=0 tc=3 mask=1000 tc_prio=2
+[    0.482793] [0][yield_context_init] cpu=0 tc=4 mask=8000 tc_prio=3
+[    0.489035] avm_yield_setup: YIELD_MONITOR_IPI1_ID   : id=0x0202000e: cpu=2 tc=2 prio=1 signal=14
+[    0.497797] avm_yield_setup: YIELD_PROFILE_IPI1_ID   : id=0x0202000d: cpu=2 tc=2 prio=1 signal=13
+[    0.506756] avm_yield_setup: YIELD_GPTC_ID           : id=0x02030002: cpu=2 tc=3 prio=3 signal= 2
+[    0.516007] [2][yield_context_init] cpu=2 tc=2 mask=6000 tc_prio=1
+[    0.522409] [2][yield_context_init] cpu=2 tc=3 mask=0004 tc_prio=3
+[    0.529437] devtmpfs: initialized
+[    0.543226] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+[    0.553216] futex hash table entries: 1024 (order: 3, 32768 bytes)
+[    0.564374] pinctrl core: initialized pinctrl subsystem
+[    0.570986] NET: Registered protocol family 16
+[    0.578826] dma-grx500 1e300000.dma: dma3 base address be300000 chained_irq 24 irq_base 25
+[    0.589761] dma-grx500 1e300000.dma: Init done - rev: a, ports: 1, channels: 64
+[    0.599381] dma-grx500 1c100000.dma: dma2tx base address bc100000 chained_irq 100 irq_base 101
+[    0.609471] dma-grx500 1c100000.dma: Init done - rev: a, ports: 1, channels: 16
+[    0.617189] dma-grx500 1c200000.dma: dma2rx base address bc200000 chained_irq 117 irq_base 118
+[    0.627679] dma-grx500 1c200000.dma: Init done - rev: a, ports: 1, channels: 32
+[    0.635871] dma-grx500 1a100000.dma: dma1tx base address ba100000 chained_irq 150 irq_base 151
+[    0.645938] dma-grx500 1a100000.dma: Init done - rev: a, ports: 1, channels: 16
+[    0.653609] dma-grx500 1a200000.dma: dma1rx base address ba200000 chained_irq 167 irq_base 168
+[    0.663581] dma-grx500 1a200000.dma: Init done - rev: a, ports: 1, channels: 12
+[    0.676793] dma0-grx500 16e00000.dma: base address b6e00000 chained_irq 215 irq_base 216
+[    0.684821] dma0-grx500 16e00000.dma: Init done - hw rev: A, ports: 4, channels: 16
+[    0.692787] intel-pinctrl 16c80000.pinctrl: pinbank id: 0, reg: 0xb6c80000, pinbase: 0, pin number: 32, pinmap: 0xf1efefff
+[    0.703762] intel-pinctrl 16c80000.pinctrl: pinbank id: 1, reg: 0xb6c80100, pinbase: 32, pin number: 32, pinmap: 0x3bff0c1f
+[    0.715113] intel-pinctrl 16c80000.pinctrl: Total 10 groups, 8 functions
+[    0.722564] intel-pinctrl 16c80000.pinctrl: gpiochip membase: 0xb6c00000
+[    0.729718] intel-pinctrl 16c80000.pinctrl: gpiochip membase: 0xb6c00100
+[    0.745452] gic_timer_probe
+[    0.748287] gic_timer_probe: irq=284 freq=1000000000
+[    0.783505] avm_alloc_page_extension node_extension_table[0] entries=131072 (size=524288)  alloced
+[    0.792438] Reboot Status is: Power-On 
+[    0.796652] cqm_platdev_init is called
+[    0.800236] dev falcon-cqm
+[    0.802996] [parse_dts] .. [30]
+[    0.806299] Unable to get node cqm for falcon-cqm
+[    0.810997] add_cqm_dev(#116): parse_dts fail for falcon-cqm
+[    0.816729] dev grx500-cbm
+[    0.819501] [parse_dts] .. [30]
+[    0.822795] num_res 12
+[    0.825168] intr 89
+[    0.827329] intr 90
+[    0.829480] intr 91
+[    0.831676] intr 92
+[    0.833819] intr 93
+[    0.836003] intr 0
+[    0.838066] No rcu reset for cbm
+[    0.841418] No syscon phandle specified for wan mux
+[    0.846325] parse dts done
+[    0.849119] adding resources
+[    0.852067] resources added
+[    0.855108]  Successfully Registered Platform device grx500-cbm.
+[    0.861022] device added
+[    0.933227] [cbm] { cbm_xrx500_probe : 5557 }reserving 18874368 bytes @ 84000000 for CBM
+[    0.972388] [cbm] { cbm_xrx500_probe : 5567 }reserving 8388608 bytes @ 85200000 for CBM
+[    0.980343] [cbm] { cbm_xrx500_probe : 5575 }89 irq
+[    0.985377] [cbm] { cbm_xrx500_probe : 5598 }2
+[    0.989813] [drv_tmu_ll] { get_cbm_clock : 7605 }CBM Clock: 600000000Hz=600MHZ
+[    0.997085] Initializing TMU with Base Address=be700000: ...
+[    1.005652] TMU Initialization Done
+[    1.008986] 0x84000000 0x1200000 0x800
+[    1.012811] 0x84000000 0x1200000
+[    1.016079] 0x85200000 0x800000 0x2000
+[    1.019922] 0x85200000 0x800000
+[    1.023430] [cbm] { init_fsqm_buf_std : 1138 }init fsqm std successfully
+[    1.030001] [cbm] { init_fsqm_buf_jumbo : 1178 }init fsqm jbo successfully
+[    1.036907] [cbm] { init_fsqm : 1201 }fsqm init successfully
+[    1.042642] [cbm] { init_cbm_basic : 1236 }PHY ADDR STD 0x24000000
+[    1.048887] [cbm] { init_cbm_basic : 1237 }PHY ADDR JBO 0x25200000
+[    1.055356] [cbm] { init_cbm_basic : 1255 }init basic CBM successfully
+[    1.061736] [cbm] { cbm_hw_init : 2156 }CBM HW init
+[    1.066795] [cbm] { setup_DMA_p2p : 4992 }setup_DMA_p2p executed
+[    1.072770] [cbm] { reserved_ports_highest : 5051 }2 2 19 35
+[    1.078493] [cbm] { init_cbm_dqm_cpu_port : 1402 }2
+[    1.083460] [cbm] { assign_port_from_DT : 631 }0x0 2
+[    1.088483] [cbm] { assign_port_from_DT : 631 }0x20 2
+[    1.093786] [cbm] { cbm_add_to_list : 427 }1
+[    1.097947] [cbm] { reserved_ports_highest : 5051 }1 1 18 34
+[    1.103660] [cbm] { init_cbm_dqm_cpu_port : 1402 }1
+[    1.108627] [cbm] { assign_port_from_DT : 631 }0x80 1
+[    1.113731] [cbm] { reserved_ports_highest : 5051 }3 3 20 36
+[    1.119465] [cbm] { init_cbm_dqm_cpu_port : 1402 }3
+[    1.124416] [cbm] { assign_port_from_DT : 631 }0x2000000 3
+[    1.129966] [cbm] { cbm_add_to_list : 427 }1
+[    1.134302] [cbm] { reserved_ports_highest : 5051 }6 6 0 16
+[    1.139953] [cbm] { dma_port_enable : 4560 }6 0x4
+[    1.144730] [cbm] { reserved_ports_highest : 5051 }7 7 1 17
+[    1.150367] [cbm] { dma_port_enable : 4560 }7 0x4
+[    1.155145] [cbm] { reserved_ports_highest : 5051 }8 8 2 18
+[    1.160788] [cbm] { dma_port_enable : 4560 }8 0x4
+[    1.165573] [cbm] { reserved_ports_highest : 5051 }9 9 3 19
+[    1.171200] [cbm] { dma_port_enable : 4560 }9 0x4
+[    1.175978] [cbm] { reserved_ports_highest : 5051 }10 10 4 20
+[    1.181787] [cbm] { dma_port_enable : 4560 }10 0x4
+[    1.186654] [cbm] { reserved_ports_highest : 5051 }11 11 5 21
+[    1.192467] [cbm] { dma_port_enable : 4560 }11 0x4
+[    1.197331] [cbm] { reserved_ports_highest : 5051 }12 12 6 22
+[    1.203140] [cbm] { dma_port_enable : 4560 }12 0x4
+[    1.208008] [cbm] { reserved_ports_highest : 5051 }13 13 7 23
+[    1.213820] [cbm] { dma_port_enable : 4560 }13 0x4
+[    1.218684] [cbm] { reserved_ports_highest : 5051 }14 14 8 24
+[    1.224493] [cbm] { dma_port_enable : 4560 }14 0x4
+[    1.229361] [cbm] { reserved_ports_highest : 5051 }15 15 9 25
+[    1.235178] [cbm] { dma_port_enable : 4560 }15 0x4
+[    1.240050] [cbm] { reserved_ports_highest : 5051 }16 16 10 26
+[    1.245935] [cbm] { dma_port_enable : 4560 }16 0x4
+[    1.250801] [cbm] { reserved_ports_highest : 5051 }17 17 11 27
+[    1.256697] [cbm] { dma_port_enable : 4560 }17 0x4
+[    1.261564] [cbm] { reserved_ports_highest : 5051 }18 18 -16 0
+[    1.267459] [cbm] { dma_port_enable : 4560 }18 0x4
+[    1.272343] [cbm] { reserved_ports_highest : 5051 }19 19 12 28
+[    1.278223] [cbm] { dma_port_enable : 4560 }19 0x4
+[    1.283091] [cbm] { reserved_ports_highest : 5051 }20 20 13 29
+[    1.288986] [cbm] { dma_port_enable : 4560 }20 0x4
+[    1.293854] [cbm] { init_special_ports : 5058 }20
+[    1.298621] [cbm] { cbm_add_to_list : 427 }1
+[    1.302959] [cbm] { reserved_ports_highest : 5051 }21 21 14 30
+[    1.308864] [cbm] { dma_port_enable : 4560 }21 0x4
+[    1.313731] [cbm] { init_special_ports : 5058 }21
+[    1.318501] [cbm] { cbm_add_to_list : 427 }1
+[    1.322838] [cbm] { reserved_ports_highest : 5051 }22 22 25 41
+[    1.328741] [cbm] { dma_port_enable : 4560 }22 0x4
+[    1.333611] [cbm] { reserved_ports_highest : 5051 }23 23 15 31
+[    1.339506] [cbm] { init_cbm_dqm_ldma_port : 1441 }23
+[    1.344635] [cbm] { reserved_ports_highest : 5051 }5 5 21 37
+[    1.350356] [cbm] { init_cbm_dqm_scpu_port : 1422 }5
+[    1.355571] [cbm] { reserved_ports_highest : 5051 }4 4 16 32
+[    1.361120] [cbm] { init_cbm_dqm_cpu_port : 1402 }4
+[    1.366074] [cbm] { assign_port_from_DT : 631 }0x18 4
+[    1.371190] [cbm] { reserved_ports_highest : 5051 }24 24 22 38
+[    1.377087] [cbm] { init_cbm_dqm_cpu_port : 1402 }24
+[    1.382134] [cbm] { assign_port_from_DT : 631 }0x8 24
+[    1.387246] [cbm] { reserved_ports_highest : 5051 }25 25 23 39
+[    1.393148] [cbm] { init_cbm_dqm_cpu_port : 1402 }25
+[    1.398191] [cbm] { assign_port_from_DT : 631 }0x8 25
+[    1.403307] [cbm] { reserved_ports_highest : 5051 }26 26 24 40
+[    1.409204] [cbm] { init_cbm_dqm_cpu_port : 1402 }26
+[    1.414255] [cbm] { assign_port_from_DT : 631 }0x8 26
+[    1.419362] [cbm] { init_cbm_eqm_cpu_port : 1262 }0
+[    1.424312] [cbm] { init_cbm_eqm_cpu_port : 1262 }1
+[    1.429255] [cbm] { init_cbm_eqm_cpu_port : 1262 }2
+[    1.434211] [cbm] { init_cbm_eqm_cpu_port : 1262 }3
+[    1.439154] [cbm] { dma_port_enable : 4560 }5 0x1
+[    1.443936] [cbm] { dma_port_enable : 4560 }5 0x2
+[    1.448702] [cbm] { dma_port_enable : 4560 }6 0x1
+[    1.453478] [cbm] { dma_port_enable : 4560 }6 0x2
+[    1.458250] [cbm] { dma_port_enable : 4560 }7 0x1
+[    1.463027] [cbm] { dma_port_enable : 4560 }7 0x2
+[    1.467798] [cbm] { dma_port_enable : 4560 }8 0x1
+[    1.472576] [cbm] { dma_port_enable : 4560 }8 0x2
+[    1.477347] [cbm] { dma_toe_port_enable : 4587 }9 0x1
+[    1.482471] [cbm] { dma_vrx318_port_enable : 4599 }15 0x1
+[    1.487946] [cbm] { init_cbm_dqm_cpu_port : 1402 }0
+[    1.492884] [cbm] { init_cbm_dqm_cpu_port : 1402 }1
+[    1.497829] [cbm] { init_cbm_dqm_cpu_port : 1402 }2
+[    1.502780] [cbm] { init_cbm_dqm_cpu_port : 1402 }3
+[    1.507727] Load spreader init successfully
+[    1.512130] [cbm] { cbm_xrx500_probe : 5654 }CBM Clock: 600000000Hz
+[    1.518320] [cbm] { cbm_xrx500_probe : 5656 }EQM delay Enabled
+[    1.524222] [cbm] { igp_delay_set : 4672 }port0 delay16
+[    1.529513] [cbm] { igp_delay_set : 4672 }port1 delay16
+[    1.534810] [cbm] { igp_delay_set : 4672 }port2 delay16
+[    1.540103] [cbm] { igp_delay_set : 4672 }port3 delay16
+[    1.545399] [cbm] { igp_delay_set : 4672 }port4 delay16
+[    1.550693] [cbm] { igp_delay_set : 4672 }port5 delay16
+[    1.555990] [cbm] { igp_delay_set : 4672 }port6 delay16
+[    1.561283] [cbm] { igp_delay_set : 4672 }port7 delay16
+[    1.566579] [cbm] { igp_delay_set : 4672 }port8 delay16
+[    1.571873] [cbm] { igp_delay_set : 4672 }port9 delay16
+[    1.577170] [cbm] { igp_delay_set : 4672 }port10 delay16
+[    1.582549] [cbm] { igp_delay_set : 4672 }port11 delay16
+[    1.587933] [cbm] { igp_delay_set : 4672 }port12 delay16
+[    1.593313] [cbm] { igp_delay_set : 4672 }port13 delay16
+[    1.598697] [cbm] { igp_delay_set : 4672 }port14 delay16
+[    1.604076] [cbm] { igp_delay_set : 4672 }port15 delay16
+[    1.609462] [cbm] { dequeue_dma_port_init : 4526 }6 0x0 2 1
+[    1.615112] [cbm] { dequeue_dma_port_init : 4526 }7 0x0 2 2
+[    1.620749] [cbm] { dequeue_dma_port_init : 4526 }8 0x0 2 3
+[    1.626389] [cbm] { dequeue_dma_port_init : 4526 }9 0x0 2 4
+[    1.632033] [cbm] { dequeue_dma_port_init : 4526 }10 0x0 2 5
+[    1.637760] [cbm] { dequeue_dma_port_init : 4526 }11 0x0 2 6
+[    1.643492] [cbm] { dequeue_dma_port_init : 4526 }12 0x0 2 9
+[    1.649219] [cbm] { dequeue_dma_port_init : 4526 }13 0x0 2 10
+[    1.655040] [cbm] { dequeue_dma_port_init : 4526 }14 0x0 2 11
+[    1.660851] [cbm] { dequeue_dma_port_init : 4526 }15 0x0 2 12
+[    1.666668] [cbm] { dequeue_dma_port_init : 4526 }16 0x0 2 13
+[    1.672482] [cbm] { dequeue_dma_port_init : 4526 }17 0x0 2 14
+[    1.678301] [cbm] { dequeue_dma_port_init : 4526 }18 0x0 1 13
+[    1.684115] [cbm] { dequeue_dma_port_init : 4526 }19 0x0 1 15
+[    1.689932] [cbm] { dequeue_dma_port_init : 4526 }20 0x0 1 5
+[    1.695658] [cbm] { dequeue_dma_port_init : 4526 }21 0x0 1 6
+[    1.701389] [cbm] { dequeue_dma_port_init : 4526 }22 0x0 1 11
+[    1.707212] [cbm] { enqueue_dma_port_init : 4471 }5 0x2 2 0 30
+[    1.713117] [cbm] { enqueue_dma_port_init : 4471 }5 0x1 2 14 0
+[    1.719009] [cbm] { enqueue_dma_port_init : 4471 }6 0x2 2 0 31
+[    1.724915] [cbm] { enqueue_dma_port_init : 4471 }6 0x1 2 15 0
+[    1.730814] [cbm] { enqueue_dma_port_init : 4471 }7 0x2 1 0 6
+[    1.736634] [cbm] { enqueue_dma_port_init : 4471 }7 0x1 1 0 0
+[    1.742445] [cbm] { enqueue_dma_port_init : 4471 }8 0x2 1 0 11
+[    1.748350] [cbm] { enqueue_dma_port_init : 4471 }8 0x1 1 5 0
+[    1.754195] [cbm] { cbm_xrx500_probe : 5715 }CBM: Init Done !![    1.760794] pstore: using zlib compression
+[    1.764882] pstore: Registered ramoops as persistent store backend
+[    1.771080] ramoops: attached 0x400000@0x20100000, ecc: 0/0
+[    1.807789] SCSI subsystem initialized
+[    1.812111] usbcore: registered new interface driver usbfs
+[    1.817663] usbcore: registered new interface driver hub
+[    1.823001] usbcore: registered new device driver usb
+[    1.828710] mp8864 0-0068: MP8864 probe started.
+[    1.838370] mp8864 0-0068: [MP8864 Init] Status is 0x11 Vsel is 0x37 Syscntl is 0xa5
+[    1.846009] i2c-gpio i2c: using pins 501 (SDA) and 502 (SCL)
+[    1.851947] try to register spd_mon driver[    1.855912] spdmon 16080110.speedm: base address: 0xb6080110
+[    1.861546] spdmon 16080110.speedm: PHY base address: 0x16080110
+[    1.867581] device number :253
+[    1.871313] spdmon 16080110.speedm: spd_mon driver : init done !!
+[    1.881917] spd_mon driver registered
+[    1.886295] AVM PA for Linux version 4.9.198 (kbuild-team@jenkins-ci.avm.de) (gcc version 8.3.0 (Buildroot 2018.11.4-gc73018b701) ) #1 SMP 2021-11-10
+[    1.886295]  (early init)
+[    1.902861] NET: Registered protocol family 8
+[    1.907129] NET: Registered protocol family 20
+[    1.912419] clocksource: Switched to clocksource gptc
+[    1.940060] AppArmor: AppArmor Filesystem Enabled
+[    1.947954] NET: Registered protocol family 2
+[    1.968686] TCP established hash table entries: 4096 (order: 2, 16384 bytes)
+[    1.975694] TCP bind hash table entries: 4096 (order: 3, 32768 bytes)
+[    1.982184] TCP: Hash tables configured (established 4096 bind 4096)
+[    1.988630] UDP hash table entries: 256 (order: 1, 8192 bytes)
+[    1.994462] UDP-Lite hash table entries: 256 (order: 1, 8192 bytes)
+[    2.001156] avm_pa: try to activate hw accelaration for pid 3 (ipv4) called from avm_pa_dev_pidhandle_register_with_ingress
+[    2.012192] NET: Registered protocol family 1
+[    2.017977] yield_probe: cpu 0 irq 272
+[    2.021804] yield_probe: cpu 1 irq 273
+[    2.025783] yield_probe: cpu 2 irq 274
+[    2.029479] yield_probe: cpu 3 irq 275
+[    2.033449] yield_probe: interrupts set up
+[    2.039490] audit: initializing netlink subsys (enabled)
+[    2.044798] audit: type=2000 audit(1.508:1): initialized
+[    2.050940] workingset: timestamp_bits=14 max_order=17 bucket_order=3
+[    2.074539] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+[    2.080260] ANTFS Module: Version 2.46
+[    2.084274] jffs2: version 2.2 (NAND) (SUMMARY) (LZMA) (RTIME) (CMODE_PRIORITY) (c) 2001-2006 Red Hat, Inc.
+[    2.094631] fuse init (API version 7.26)
+[    2.105952] io scheduler noop registered
+[    2.109750] io scheduler deadline registered (default)
+[    2.115377] bthelper_probe: core 0 initialized
+[    2.119680] bthelper_probe: core 1 initialized
+[    2.125020] intel-pcie-slim-phy 18500000.pciephy: PCIe slim phy[0] init success!
+[    2.132582] intel-pcie-slim-phy 18000000.pciephy: PCIe slim phy[1] init success!
+[    2.140079] intel-pcie-slim-phy 18a00000.pciephy: PCIe slim phy[2] init success!
+[    2.147794] 1a400000.phy supply vbus not found, using dummy regulator
+[    2.154512] 1a600000.phy supply vbus not found, using dummy regulator
+[    2.268451] OF: PCI: host bridge /pcie@18900000 ranges:
+[    2.273590] OF: PCI:   MEM 0xb8000000..0xbaffffff -> 0xb8000000
+[    2.279530] OF: PCI:    IO 0xbb800000..0xbb80ffff -> 0xbb800000
+[    2.287851] intel-pcie-slim-phy 18500000.pciephy: PCIe LCPLL SSC Mode Enabled
+[    2.430524] intel-pcie 18900000.pcie: PCI host bridge to bus 0000:00
+[    2.436765] pci_bus 0000:00: root bus resource [bus 00-08]
+[    2.442283] pci_bus 0000:00: root bus resource [mem 0xb8000000-0xbaffffff]
+[    2.449225] pci_bus 0000:00: root bus resource [io  0xbb800000-0xbb80ffff]
+[    2.456630] pci 0000:00:00.0: bridge configuration invalid ([bus 00-00]), reconfiguring
+[    2.465180] pci 0000:00:00.0: PCI bridge to [bus 01-08]
+[    2.470526] pci 0000:00:00.0: BAR 8: assigned [mem 0xb8000000-0xb9ffffff]
+[    2.477163] pci 0000:00:00.0: BAR 9: assigned [mem 0xba000000-0xba0fffff pref]
+[    2.484456] pci 0000:00:00.0: BAR 7: assigned [io  0xbb800000-0xbb800fff]
+[    2.491321] pci 0000:01:00.0: BAR 0: assigned [mem 0xb8000000-0xb9ffffff]
+[    2.498174] pci 0000:00:00.0: PCI bridge to [bus 01]
+[    2.503194] pci 0000:00:00.0:   bridge window [io  0xbb800000-0xbb800fff]
+[    2.510055] pci 0000:00:00.0:   bridge window [mem 0xb8000000-0xb9ffffff]
+[    2.516912] pci 0000:00:00.0:   bridge window [mem 0xba000000-0xba0fffff pref]
+[    2.524333] pcieport 0000:00:00.0: enabling device (0000 -> 0003)
+[    2.530543] intel-pcie 18900000.pcie: Intel AXI PCIe Root Complex Port 0 Init Done
+[    2.644431] OF: PCI: host bridge /pcie@18400000 ranges:
+[    2.649534] OF: PCI:   MEM 0xb4000000..0xb6ffffff -> 0xb4000000
+[    2.655499] OF: PCI:    IO 0xb7800000..0xb780ffff -> 0xb7800000
+[    2.662593] intel-pcie-slim-phy 18000000.pciephy: SSC has been enabled, count: 2!
+[    2.806493] intel-pcie 18400000.pcie: PCI host bridge to bus 0001:00
+[    2.812726] pci_bus 0001:00: root bus resource [bus 00-08]
+[    2.818251] pci_bus 0001:00: root bus resource [mem 0xb4000000-0xb6ffffff]
+[    2.825194] pci_bus 0001:00: root bus resource [io  0xb7800000-0xb780ffff]
+[    2.832560] pci 0001:00:00.0: bridge configuration invalid ([bus 00-00]), reconfiguring
+[    2.841115] pci 0001:00:00.0: PCI bridge to [bus 01-08]
+[    2.846513] pci 0001:00:00.0: BAR 8: assigned [mem 0xb4000000-0xb5ffffff]
+[    2.853149] pci 0001:00:00.0: BAR 9: assigned [mem 0xb6000000-0xb60fffff pref]
+[    2.860447] pci 0001:00:00.0: BAR 7: assigned [io  0xb7800000-0xb7800fff]
+[    2.867305] pci 0001:01:00.0: BAR 0: assigned [mem 0xb4000000-0xb5ffffff]
+[    2.874161] pci 0001:00:00.0: PCI bridge to [bus 01]
+[    2.879180] pci 0001:00:00.0:   bridge window [io  0xb7800000-0xb7800fff]
+[    2.886040] pci 0001:00:00.0:   bridge window [mem 0xb4000000-0xb5ffffff]
+[    2.892898] pci 0001:00:00.0:   bridge window [mem 0xb6000000-0xb60fffff pref]
+[    2.900311] pcieport 0001:00:00.0: enabling device (0000 -> 0003)
+[    2.906528] intel-pcie 18400000.pcie: Intel AXI PCIe Root Complex Port 1 Init Done
+[    3.020432] OF: PCI: host bridge /pcie@18e00000 ranges:
+[    3.025537] OF: PCI:   MEM 0xbc000000..0xbeffffff -> 0xbc000000
+[    3.031502] OF: PCI:    IO 0xbf800000..0xbf80ffff -> 0xbf800000
+[    3.038597] intel-pcie-slim-phy 18a00000.pciephy: SSC has been enabled, count: 3!
+[    3.166708] intel-pcie 18e00000.pcie: PCI host bridge to bus 0002:00
+[    3.172941] pci_bus 0002:00: root bus resource [bus 00-08]
+[    3.178465] pci_bus 0002:00: root bus resource [mem 0xbc000000-0xbeffffff]
+[    3.185407] pci_bus 0002:00: root bus resource [io  0xbf800000-0xbf80ffff]
+[    3.192775] pci 0002:00:00.0: bridge configuration invalid ([bus 00-00]), reconfiguring
+[    3.201264] pci 0002:00:00.0: PCI bridge to [bus 01-08]
+[    3.206694] pci 0002:00:00.0: BAR 8: assigned [mem 0xbc000000-0xbc7fffff]
+[    3.213330] pci 0002:00:00.0: BAR 9: assigned [mem 0xbc800000-0xbc8fffff pref]
+[    3.220621] pci 0002:00:00.0: BAR 7: assigned [io  0xbf800000-0xbf800fff]
+[    3.227487] pci 0002:01:00.0: BAR 0: assigned [mem 0xbc000000-0xbc7fffff]
+[    3.234339] pci 0002:00:00.0: PCI bridge to [bus 01]
+[    3.239359] pci 0002:00:00.0:   bridge window [io  0xbf800000-0xbf800fff]
+[    3.246220] pci 0002:00:00.0:   bridge window [mem 0xbc000000-0xbc7fffff]
+[    3.253077] pci 0002:00:00.0:   bridge window [mem 0xbc800000-0xbc8fffff pref]
+[    3.260522] pcieport 0002:00:00.0: enabling device (0000 -> 0003)
+[    3.266708] intel-pcie 18e00000.pcie: Intel AXI PCIe Root Complex Port 2 Init Done
+[    3.276026] UMT initialize success on processor: 0 !
+[    3.280877] HW MCPY driver: Version: 1.1.0, Init Done!
+[    3.287018] 16600000.serial: ttyLTQ0 at MMIO 0x16600000 (irq = 210, base_baud = 0) is a lantiq,asc
+[    3.296121] console [ttyLTQ0] enabled
+[    3.296121] console [ttyLTQ0] enabled
+[    3.303320] bootconsole [early0] disabled
+[    3.303320] bootconsole [early0] disabled
+[    3.312649] avm_net_trace: Up and running.
+[    3.315928] [loadcontrol] set auto - scale=1
+[    3.319591] [avm] configured: watchdog event debug [    3.324246] 
+[    3.325721] AVM_WATCHDOG: Watchdog Driver for AR7 Hardware (Version 1.0)
+[    3.332649] ar7wdt_hw_shim: ar7wdt_hw_init: No watchdog device available (yet)
+[    3.339893] Register push button event to receive the set_factory_kernel event
+[    3.366121] zram: Added device: zram0
+[    3.370080] nand: device found, Manufacturer ID: 0x98, Chip ID: 0xdc
+[    3.375017] nand: Toshiba NAND 512MiB 3,3V 8-bit
+[    3.379588] nand: 512 MiB, SLC, erase size: 256 KiB, page size: 4096, OOB size: 128
+[    3.387342] try_avm_ecc_fixup: AVM ecc fixup is not yet implemented - skipping check
+[    3.394979] Scanning device for bad blocks
+[    3.778198] Bad eraseblock 1536 at 0x000018000000
+[    3.781570] Bad eraseblock 1537 at 0x000018040000
+[    3.911291] 5 ofpart partitions found on MTD device 17c00000.nand-parts
+[    3.916446] Creating 5 MTD partitions on "17c00000.nand-parts":
+[    3.922358] 0x000000900000-0x000001100000 : "kernel"
+[    3.929273] 0x000000000000-0x000000100000 : "urlader"
+[    3.934540] 0x000000100000-0x000000900000 : "nand-tffs"
+[    3.940020] 0x000001100000-0x000001900000 : "reserved-kernel"
+[    3.946051] 0x000001900000-0x000020000000 : "ubi"
+[    3.953816] [TFFS3_Register_Panic_CB] registering panic callback for mtd 17c00000.nand-parts
+[    3.961794] libphy: Fixed MDIO Bus: probed
+[    3.965629] Node name /ssx1@1c000000/gswitch@000000
+[    3.970811] Node name /ssx2@1a000000/gswitch@000000
+[    3.976310] ::::::: SWAPI Reached :::::: 
+[    3.978906] GSWIP devid = 0
+[    3.981648] memres->start = 0x1c000000 memres->end = 0x1c002fff
+[    3.987665] addr_gswl = 0xbc000000
+[    3.990940] /GU/KERNEL_grx5_build/linux/drivers/net/ethernet/lantiq/switch-api/gsw_init.c:ltq_gsw_api_register:933 (Register l base:0xbc000000)
+[    4.003807] SWAPI: Registered char device [switch_api] with major no [81]
+[    4.010557] addr_gswl = 0xbc000000
+[    4.013952] 
+[    4.013952] ########## Switch Core INIT for device = 0 ##########
+[    4.021501] Switch Core Base Address = 0xbc000000
+[    4.026203] 
+[    4.026203] GSWIP 3.0 HardWare Capability
+[    4.031651] -----------------------------
+[    4.031651] 
+[    4.037122] Switch Version ID                =  0x30
+[    4.042063] 
+[    4.043524] Number of logical port           =  7
+[    4.048232] Number of ports including V port =  8
+[    4.052920] Number of queues                 =  32
+[    4.057691] Number of meter instance         =  16
+[    4.062468] Number of shapers                =  32
+[    4.067240] Number of PMAC                   =  1
+[    4.071934] Number of CPU PORT               =  0
+[    4.076621] 
+[    4.078075] PPPOE table size                 =  16
+[    4.082873] IP packet length table size      =  16
+[    4.087637] Protocol table size              =  32
+[    4.092416] MAC DA/SA table size             =  64
+[    4.097192] Application table size           =  64
+[    4.101960] IP DA/SA MSB table size          =  64
+[    4.106742] IP DA/SA LSB table size          =  64
+[    4.111509] Multicast table size             =  64
+[    4.116290] Multicast Hw Snoop               =  0
+[    4.120974] TFLOW table size                 =  64
+[    4.125757] MAC bridge table size            =  2048
+[    4.130705] TFLOW RMON counter table Size    =  256
+[    4.135568] Payload Table Size               =  64
+[    4.140336] Extend VLAN Table Size table     =  0
+[    4.145025] VlanFilter table Size            =  0
+[    4.145025] 
+[    4.151179] 
+[    4.152697] Enter PCE micro-code init
+[    4.156552] Exit PCE micro-code init
+[    4.159847] Switch API: PCE MicroCode loaded !!
+[    4.164496] ::::::: SWAPI Reached :::::: 
+[    4.168355] GSWIP devid = 1
+[    4.171156] memres->start = 0x1a000000 memres->end = 0x1a002fff
+[    4.177119] addr_gswr = 0xba000000
+[    4.180452] /GU/KERNEL_grx5_build/linux/drivers/net/ethernet/lantiq/switch-api/gsw_init.c:ltq_gsw_api_register:944 (Register r base:0xba000000)
+[    4.193292] 
+[    4.193292] ########## Switch Core INIT for device = 1 ##########
+[    4.200844] Switch Core Base Address = 0xba000000
+[    4.205537] 
+[    4.205537] GSWIP 3.0 HardWare Capability
+[    4.210992] -----------------------------
+[    4.210992] 
+[    4.216468] Switch Version ID                =  0x30
+[    4.221413] 
+[    4.222870] Number of logical port           =  2
+[    4.227573] Number of ports including V port =  17
+[    4.232354] Number of queues                 =  32
+[    4.237133] Number of meter instance         =  64
+[    4.241905] Number of shapers                =  32
+[    4.246678] Number of PMAC                   =  1
+[    4.251364] Number of CPU PORT               =  0
+[    4.256050] 
+[    4.257527] PPPOE table size                 =  16
+[    4.262302] IP packet length table size      =  16
+[    4.267076] Protocol table size              =  32
+[    4.271851] MAC DA/SA table size             =  64
+[    4.276631] Application table size           =  64
+[    4.281400] IP DA/SA MSB table size          =  64
+[    4.286174] IP DA/SA LSB table size          =  64
+[    4.290953] Multicast table size             =  64
+[    4.295730] Multicast Hw Snoop               =  0
+[    4.300417] TFLOW table size                 =  512
+[    4.305272] MAC bridge table size            =  2048
+[    4.310220] TFLOW RMON counter table Size    =  256
+[    4.315080] Payload Table Size               =  64
+[    4.319855] Extend VLAN Table Size table     =  0
+[    4.324546] VlanFilter table Size            =  0
+[    4.324546] 
+[    4.330705] 
+[    4.332181] Enter PCE micro-code init
+[    4.336080] Exit PCE micro-code init
+[    4.339386] Switch API: PCE MicroCode loaded !!
+[    4.350078] lro_sram_membase_res0 from DT: a2013000 
+[    4.353898] ltq_toe_membase: e2000000 and lro_sram_membase_res0: e2013000
+[    4.361023] TOE Init Done !!
+[    5.009019] i2c /dev entries driver
+[    5.014194] grx500wdt 12000000.watchdog: [grx500wdt_probe]:[325] cpu_clk=1000000000
+[    5.020532] grx500wdt 12000000.watchdog: [grx500wdt_probe]WDT reset is Bit31, RCU_IAP_WDT_RST_STAT=0x21000c08
+[    5.030317] grx500wdt 12000000.watchdog: [grx500wdt_probe]Not WDT reset.
+[    5.037018] grx500wdt 12000000.watchdog: [grx500wdt_probe]:[373] wdd = 88df32d0
+[    5.044309] watchdog: AVM driver enabled, not creating device file #0 for Hardware Watchdog for GRX500
+[    5.053565] ar7wdt_hw_shim: Device #0 attached (Hardware Watchdog for GRX500)
+[    5.060679] ar7wdt_hw_shim: Starting watchdog
+[    5.065043] grx500wdt 12000000.watchdog: [grx500wdt_probe]:[373] wdd = 88dff2d0
+[    5.072318] watchdog: AVM driver enabled, not creating device file #1 for Hardware Watchdog for GRX500
+[    5.081603] ar7wdt_hw_shim: Device #1 attached (Hardware Watchdog for GRX500)
+[    5.088723] ar7wdt_hw_shim: Starting watchdog
+[    5.093084] grx500wdt 12000000.watchdog: [grx500wdt_probe]:[373] wdd = 88e0b2d0
+[    5.100358] watchdog: AVM driver enabled, not creating device file #2 for Hardware Watchdog for GRX500
+[    5.109643] ar7wdt_hw_shim: Device #2 attached (Hardware Watchdog for GRX500)
+[    5.116756] ar7wdt_hw_shim: Starting watchdog
+[    5.121119] grx500wdt 12000000.watchdog: [grx500wdt_probe]:[373] wdd = 88e172d0
+[    5.128411] watchdog: AVM driver enabled, not creating device file #3 for Hardware Watchdog for GRX500
+[    5.137680] ar7wdt_hw_shim: Device #3 attached (Hardware Watchdog for GRX500)
+[    5.144800] ar7wdt_hw_shim: Starting watchdog
+[    5.149156] grx500wdt 12000000.watchdog: H/w Watchdog Timer: (max 4) (nowayout= 0)
+[    5.162572] AVM PA for Linux Linux version 4.9.198 (kbuild-team@jenkins-ci.avm.de) (gcc version 8.3.0 (Buildroot 2018.11.4-gc73018b701) ) #1 SMP 2021-11-10
+[    5.162572]  (late init)
+[    5.178128] Mirror/redirect action on
+[    5.181265] u32 classifier
+[    5.183872]     Performance counters on
+[    5.187712]     input device check on
+[    5.191358]     Actions configured
+[    5.194956] ipip: IPv4 and MPLS over IPv4 tunneling driver
+[    5.201049] Initializing XFRM netlink socket
+[    5.204543] IPsec XFRM device driver
+[    5.209058] NET: Registered protocol family 10
+[    5.214203] avm_pa: try to activate hw accelaration for pid 4 (ipv6) called from avm_pa_dev_pidhandle_register_with_ingress
+[    5.224045] NET: Registered protocol family 17
+[    5.228495] Bridge flood ratelimiter registered
+[    5.232885] bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+[    5.245792] lec:lane_module_init: lec.c: initialized
+[    5.250712] mpoa:atm_mpoa_init: mpc.c: initialized
+[    5.255530] KOAM is loaded successfully.
+[    5.259431] l2tp_core: L2TP core driver, V2.0
+[    5.263731] l2tp_ip: L2TP IP encapsulation support (L2TPv3)
+[    5.269353] l2tp_netlink: L2TP netlink interface
+[    5.273958] l2tp_eth: L2TP ethernet pseudowire support (L2TPv3)
+[    5.279788] l2tp_ip6: L2TP IP encapsulation support for IPv6 (L2TPv3)
+[    5.286477] 8021q: 802.1Q VLAN Support v1.8
+[    5.292049] audit: type=1400 audit(4.752:2): apparmor="STATUS" info="AppArmor sha1 policy hashing enabled" pid=1 comm="swapper/0"
+[    5.302288] AppArmor: AppArmor sha1 policy hashing enabled
+[    5.310086] [TFFS3_Init] Called.
+[    5.311862] [TFFS3_CACHE_Configure] Setting up caching for backend nand
+[    5.318499] [TFFS3-CACHE] Caching module for TFFS 3.x
+[    5.323505] [TFFS3-NAND] NAND storage backend for TFFS 3.x
+[    5.605236] [TFFS3-NAND] Initialisation successful, 32/32/32 NAND blocks active, fill rate 7%
+[    5.612609] TFFS: tiny flash file system driver. GPL (c) AVM Berlin (Version 3.0)
+[    5.619852] Adam2 environment variables API installed.
+[    5.625970] ubi0: attaching mtd4
+[    5.998413] ubi0: scanning is finished
+[    6.031148] ubi0: attached mtd4 (name "ubi", size 487 MiB)
+[    6.035221] ubi0: PEB size: 262144 bytes (256 KiB), LEB size: 258048 bytes
+[    6.042058] ubi0: min./max. I/O unit sizes: 4096/4096, sub-page size 1024
+[    6.048820] ubi0: VID header offset: 1024 (aligned 1024), data offset: 4096
+[    6.055757] ubi0: good PEBs: 1946, bad PEBs: 2, corrupted PEBs: 0
+[    6.061837] ubi0: user volume: 4, internal volumes: 1, max. volumes count: 128
+[    6.069045] ubi0: max/mean erase counter: 2/1, WL threshold: 4096, image sequence number: 3705545306
+[    6.078157] ubi0: available PEBs: 0, total reserved PEBs: 1946, PEBs reserved for bad PEB handling: 38
+[    6.087470] ubi0: background thread "ubi_bgt0d" started, PID 631
+[    6.089267] Could not find Env 'linux_fs_start' in the device tree 
+[    6.089284] [announce_root] filesystem (/dev/mtdblock5) will be used as root device
+[    6.090816] Could not find Env 'linux_fs_start' in the device tree 
+[    6.092339] Could not find Env 'linux_fs_start' in the device tree 
+[    6.094113] Could not find Env 'linux_fs_start' in the [    6.134424] VFS: Mounted root (squashfs filesystem) readonly on device 31:5.
+[    6.145265] devtmpfs: mounted
+[    6.146871] Could not find Env 'linux_fs_start' in the device tree 
+[    6.153131] Could not find Env 'linux_fs_start' in the device tree 
+[    6.159316] Could not find Env 'linux_fs_start' in the device tree 
+[    6.165607] Could not find Env 'linux_fs_start' in the device tree 
+[    6.172975] Freeing unused kernel: 372k freed
+[    6.176113] This architecture does not have kernel memory protection.
+[    7.442391] eip123_hw: loading out-of-tree module taints kernel.
+[    7.447021] eip123_hw: module license 'Proprietary' taints kernel.
+[    7.453134] Disabling lock debugging due to kernel taint
+[    7.458973] [module-mem] give 0x4000 bytes at 884a9000 to module 'eip123_hw' (0x940000 bytes left)
+[    7.470155] [module-mem] give 0x2000 bytes at 884ad000 to module 'eip123' (0x93e000 bytes left)
+[    7.478532] eip123 1e000000.eip123: Detected hardware version 2.2.2
+[    7.484087] eip123 1e000000.eip123: my_id=3 master_id=0 num_mailboxes=4 mailbox_size=256
+[    7.491794] eip123 1e000000.eip123: Linked mailbox number 1
+[    7.524469] eip123 1e000000.eip123: Sysinfo: FWVersion=2.4.2 HWVersion=2.2.2 MemorySize=32768 HostId=3 Identity=0 NVMAnomaly=0 NVMAnomalyLocation=0
+[    7.560451] eip123 1e000000.eip123: Device responded with error_src=0x2 error=0x2 opcode=0x11
+[    7.868532] eip123 1e000000.eip123: eip123_hw init successful
+[    7.901180] random: crng init done
+[    7.928539] eip123 1e000000.eip123: Device responded with error_src=0x0 error=0x1 opcode=0x1c
+[    7.935682] eip123 1e000000.eip123: Could not find rootkey in OTP
+[    8.224099] [module-mem] give 0x33000 bytes at 884af000 to module 'led_module' (0x90b000 bytes left)
+[    8.242312] [LED] use GPIO 14 for 'gpio_avm_led_power'
+[    8.246727] [init_ambient_brightness] HWSubRev 32
+[    8.250824] [LED] use GPIO 15 for 'gpio_avm_led_wlan'
+[    8.255826] [LED] use GPIO 16 for 'gpio_avm_led_fon'
+[    8.260771] [LED] use GPIO 17 for 'gpio_avm_led_connect'
+[    8.266050] [LED] use GPIO 19 for 'gpio_avm_led_info'
+[    8.271095] [LED] use GPIO 18 for 'gpio_avm_led_info_red'
+[    8.276506] [LED] use GPIO 20 for 'gpio_avm_ambientbrightness'
+[    8.282290] [LED] use GPIO 3 for 'gpio_avm_led_output_enable'
+[    8.288167] [BUTTON] use GPIO 12 for 'gpio_avm_button_wlan'
+[    8.293572] [BUTTON] use GPIO 11 for 'gpio_avm_button_dect'
+[    8.299124] [BUTTON] use GPIO 13 for 'gpio_avm_button_connect'
+[    8.305249] [avm_connect][state_machine_init] starting event worker thread
+[    8.312926] led_module: Waiting for event system to be ready...
+[    8.412630] [TFFS_Cache] Allocate segement buffer cache (size=4072)
+[    8.420681] TFFS Name Table N
+[    8.853167] [module-mem] give 0x3000 bytes at 884e2000 to module 'cpunet' (0x908000 bytes left)
+[    8.862988] cpunet 1f107400.cpunet: slots=16 mtu=8192 mailbox_size=0x4c mempool_size=0x20000
+[    8.870775] cpunet 1f107400.cpunet: Initialized mailbox: rx=0xbf201000 tx=0xbf201100
+[    8.878038] cpunet 1f107400.cpunet: Initialized mempool: rx=0x8dfc0000 tx=0x8dfe0000 min_align=64
+[    8.886806] cpunet 1f107400.cpunet: hw init successful
+[    8.894798] IPv6: ADDRCONF(NETDEV_UP): lo: link is not ready
+[    8.899662] IPv6: ADDRCONF(NETDEV_UP): cpunet0: link is not ready
+[    9.689146] [0]system-load  57% loadavg 0.8 0.2 0.1 - pgstat: sum=216653 free=101800 slab=1845 alloc=1097/s fault=432/s ai_sys:0.40/s 0x884aa624 endian_convert_array+0x20/0x38 [eip12 (sleep 1)
+[   13.185108] AVM_WATCHDOG: System Init Ueberwachung 120 Sekunden
+[   13.638203] udevd[961]: starting version 3.2.5
+[   13.659700] udevd[961]: specified group 'tty' unknown
+[   13.664347] udevd[961]: specified group 'dialout' unknown
+[   13.669542] udevd[961]: specified group 'kmem' unknown
+[   13.674654] udevd[961]: specified group 'input' unknown
+[   13.679911] udevd[961]: specified group 'video' unknown
+[   13.685329] udevd[961]: specified group 'audio' unknown
+[   13.690458] udevd[961]: specified group 'lp' unknown
+[   13.695212] udevd[961]: specified group 'disk' unknown
+[   13.700555] udevd[961]: specified group 'cdrom' unknown
+[   13.709809] udevd[961]: starting eudev-3.2.5
+[   14.027839] [module-mem] give 0x1000 bytes at 884e5000 to module 'xrx500_phy_fw' (0x907000 bytes left)
+[   14.037628] phy-xrx500 phy-xrx500: requesting ltq_fw_PHY11G_IP_xRx5xx_A21.bin
+[   14.071219] [module-mem] Module 'xrx500_phy_fw' already allocated
+[   14.130730] [module-mem] give 0xe000 bytes at 884e6000 to module 'eip97' (0x8f9000 bytes left)
+[   14.166571] phy-xrx500 phy-xrx500: booting GPHY0 firmware at 25A10000 for GRX500
+[   14.177632] phy-xrx500 phy-xrx500: booting GPHY1 firmware at 25A10000 for GRX500
+[   14.179145] [module-mem] give 0x2000 bytes at 884f4000 to module 'dsl_gfast_drv_vrx618_ep' (0x8f7000 bytes left)
+[   14.180589] VRX618 PCI EP Driver, Version 1.1.0 
+[   14.180597] (c) Copyright 2016, Intel Deutschland GmbH 
+[   14.180609] drv_vrx618_ep_init - use PCIe Vendor=8086, Device=0x09AA
+[   14.180781] drv_vrx618_ep_probe - enter
+[   14.180821] vrx618_ep 0002:01:00.0: enabling device (0000 -> 0002)
+[   14.180881] platform_device_pmi_setup - enter
+[   14.180886] pmi_platform_data_set_v3 - enter
+[   14.180892] pmi_platform_data_set_v3 - register PMI Platform device 
+[   14.180904]    PMI Dev: phy_addr=bc000000 phy_mem_size__byte=8388608 (0x800000)
+[   14.180911]             virt_addr=fc000000 irq=0
+[   14.180918]             pci_vendor_id=0x8086 pci_device_id=0x09AA
+[   14.180924] platform_device_pmi_setup - register PMI platform device
+[   14.181616] platform_device_datapath_setup - enter
+[   14.181625] dp_platform_data_set_v3 - enter
+[   14.181633] dp_platform_data_set_v3 - register Datapath Platform device 
+[   14.181649]    PMI Dev: phy_addr=0xbc000000 phy_mem_size__byte=8388608 (0x800000)
+[   14.181656]             virt_addr=0xfc000000 irq=n/a
+[   14.181663]             pci_vendor_id=0x8086 pci_device_id=0x09AA
+[   14.181669] platform_device_datapath_setup - register datapath platform device
+[   14.301215] phy-xrx500 phy-xrx500: booting GPHY2 firmware at 25A10000 for GRX500
+[   14.308500] phy-xrx500 phy-xrx500: booting GPHY3 firmware at 25A10000 for GRX500
+[   14.315883] phy-xrx500 phy-xrx500: booting GPHY4 firmware at 25A10000 for GRX500
+[   14.433852] [module-mem] give 0x7000 bytes at 884f6000 to module 'ltq_eth_drv_xrx500' (0x8f0000 bytes left)
+[   14.443607] [ltq_eth_drv_xrx500] { ltq_gsw_pmac_init : 881 }PMAC_EG_CFG_SET for GSW-L
+[   14.450217] [ltq_eth_drv_xrx500] { ltq_gsw_pmac_init : 928 }PMAC_IG_CFG_SET for GSW-L
+[   14.457866] [ltq_eth_drv_xrx500] { ltq_gsw_pmac_init : 1007 }PMAC_EG_CFG_SET for GSW-R
+[   14.468707] [ltq_eth_drv_xrx500] { ltq_gsw_pmac_init : 1065 }PMAC_IG_CFG_SET for GSW-R
+[   14.475409] [ltq_eth_drv_xrx500] { ltq_gsw_pmac_init : 1138 }
+[   14.475409]  GSW PMAC Init Done!!!
+[   14.484452] [ltq_eth_drv_xrx500] { xrx500_of_mdio : 1707 }registering one of MII bus
+[   14.492433] libphy: lantiq,xrx500-mdio: probed
+[   14.517508] [ltq_eth_drv_xrx500] { xrx500_of_mdio : 1707 }registering one of MII bus
+[   14.524094] libphy: lantiq,xrx500-mdio: probed
+[   14.532888] [datapath_proc] { dp_sub_proc_install_30 : 3491 }dp_sub_proc_install ok
+[   14.539251] Rmon clear for CTP RX/TX --Logical Port 0
+[   14.544136] Rmon clear for CTP RX/TX --Logical Port 1
+[   14.549167] Rmon clear for CTP RX/TX --Logical Port 2
+[   14.554203] Rmon clear for CTP RX/TX --Logical Port 3
+[   14.559232] Rmon clear for CTP RX/TX --Logical Port 4
+[   14.564273] Rmon clear for CTP RX/TX --Logical Port 5
+[   14.569301] Rmon clear for CTP RX/TX --Logical Port 6
+[   14.574366] Rmon clear for CTP RX/TX --Logical Port 0
+[   14.579376] Rmon clear for CTP RX/TX --Logical Port 1
+[   14.584409] Rmon clear for CTP RX/TX --Logical Port 2
+[   14.589448] Rmon clear for CTP RX/TX --Logical Port 3
+[   14.594476] Rmon clear for CTP RX/TX --Logical Port 4
+[   14.599518] Rmon clear for CTP RX/TX --Logical Port 5
+[   14.604546] Rmon clear for CTP RX/TX --Logical Port 6
+[   14.609587] Rmon clear for CTP RX/TX --Logical Port 7
+[   14.614615] Rmon clear for CTP RX/TX --Logical Port 8
+[   14.619657] Rmon clear for CTP RX/TX --Logical Port 9
+[   14.624686] Rmon clear for CTP RX/TX --Logical Port 10
+[   14.629817] Rmon clear for CTP RX/TX --Logical Port 11
+[   14.634929] Rmon clear for CTP RX/TX --Logical Port 12
+[   14.640057] Rmon clear for CTP RX/TX --Logical Port 13
+[   14.645172] Rmon clear for CTP RX/TX --Logical Port 14
+[   14.650301] Rmon clear for CTP RX/TX --Logical Port 15
+[   14.655415] Rmon clear for CTP RX/TX --Logical Port 16
+[   14.660597] [datapath_api] { dp_init_module : 2748 }datapath init done
+[   14.667068] [cbm] { dp_port_alloc : 3193 }flags 0x2
+[   14.671922] [cbm] { cbm_add_to_list : 427 }2
+[   14.676181] [cbm] { dp_port_alloc : 3342 }disabling q 17 port 7
+[   14.682077] [cbm] { dp_port_alloc : 3348 }first time LOOKUP prgrm
+[   14.688509] [cbm] { dp_port_alloc : 3353 }1024
+[   14.692892] [ltq_eth_drv_xrx500] { xrx500_of_iface : 1598 }xrx500_of_iface: rx csum offload is enabled !
+[   14.702147] [ltq_eth_drv_xrx500] { xrx500_mdio_probe : 1796 }trying to connect: eth3 to device: 0:02 with irq: 290
+[   14.832405] [ltq_eth_drv_xrx500] { xrx500_mdio_probe : 1814 }eth3: attached PHY [Lantiq XWAY VR9 GPHY 11G v1.4] (phy_addr=0:02, irq=290)
+[   14.855486] [cbm] { dp_enable : 3657 }ep=2 tmu_port=7 queue=17 sid=1
+[   14.860408] [cbm] { dp_enable : 3698 }enable queue 17
+[   14.865389] [cbm] { dp_enable : 3699 }flag 1 refcnt 1024
+[   14.871901] [ltq_eth_drv_xrx500] { setup_avm_pa_eth_dev : 1350 }[setup_avm_pa_eth_dev] dev eth3
+[   14.879657] [cbm] { dp_port_alloc : 3193 }flags 0x2
+[   14.884285] [cbm] { cbm_add_to_list : 427 }2
+[   14.888506] [cbm] { dp_port_alloc : 3342 }disabling q 18 port 8
+[   14.894411] [cbm] { dp_port_alloc : 3348 }first time LOOKUP prgrm
+[   14.900784] [cbm] { dp_port_alloc : 3353 }1024
+[   14.905222] [ltq_eth_drv_xrx500] { xrx500_of_iface : 1598 }xrx500_of_iface: rx csum offload is enabled !
+[   14.914417] [ltq_eth_drv_xrx500] { xrx500_mdio_probe : 1796 }trying to connect: eth2 to device: 0:03 with irq: 291
+[   15.044409] [ltq_eth_drv_xrx500] { xrx500_mdio_probe : 1814 }eth2: attached PHY [Lantiq XWAY VR9 GPHY 11G v1.4] (phy_addr=0:03, irq=291)
+[   15.067318] [cbm] { dp_enable : 3657 }ep=3 tmu_port=8 queue=18 sid=2
+[   15.072225] [cbm] { dp_enable : 3698 }enable queue 18
+[   15.077218] [cbm] { dp_enable : 3699 }flag 1 refcnt 1024
+[   15.083724] [ltq_eth_drv_xrx500] { setup_avm_pa_eth_dev : 1350 }[setup_avm_pa_eth_dev] dev eth2
+[   15.091521] [cbm] { dp_port_alloc : 3193 }flags 0x2
+[   15.096096] [cbm] { cbm_add_to_list : 427 }2
+[   15.100337] [cbm] { dp_port_alloc : 3342 }disabling q 19 port 9
+[   15.106239] [cbm] { dp_port_alloc : 3348 }first time LOOKUP prgrm
+[   15.112639] [cbm] { dp_port_alloc : 3353 }1024
+[   15.117052] [ltq_eth_drv_xrx500] { xrx500_of_iface : 1598 }xrx500_of_iface: rx csum offload is enabled !
+[   15.126264] [ltq_eth_drv_xrx500] { xrx500_mdio_probe : 1796 }trying to connect: eth1 to device: 0:04 with irq: 292
+[   15.279215] [ltq_eth_drv_xrx500] { xrx500_mdio_probe : 1814 }eth1: attached PHY [Lantiq XWAY VR9 GPHY 11G v1.4] (phy_addr=0:04, irq=292)
+[   15.301969] [cbm] { dp_enable : 3657 }ep=4 tmu_port=9 queue=19 sid=3
+[   15.306894] [cbm] { dp_enable : 3698 }enable queue 19
+[   15.311880] [cbm] { dp_enable : 3699 }flag 1 refcnt 1024
+[   15.318678] [ltq_eth_drv_xrx500] { setup_avm_pa_eth_dev : 1350 }[setup_avm_pa_eth_dev] dev eth1
+[   15.327416] [cbm] { dp_port_alloc : 3193 }flags 0x2
+[   15.330924] [cbm] { cbm_add_to_list : 427 }2
+[   15.335124] [cbm] { dp_port_alloc : 3342 }disabling q 20 port 10
+[   15.341113] [cbm] { dp_port_alloc : 3348 }first time LOOKUP prgrm
+[   15.347600] [cbm] { dp_port_alloc : 3353 }1024
+[   15.351930] [ltq_eth_drv_xrx500] { xrx500_of_iface : 1598 }xrx500_of_iface: rx csum offload is enabled !
+[   15.361128] [ltq_eth_drv_xrx500] { xrx500_mdio_probe : 1796 }trying to connect: eth0 to device: 0:05 with irq: 293
+[   15.517396] [ltq_eth_drv_xrx500] { xrx500_mdio_probe : 1814 }eth0: attached PHY [Lantiq XWAY VR9 GPHY 11G v1.4] (phy_addr=0:05, irq=293)
+[   15.534574] [cbm] { dp_enable : 3657 }ep=5 tmu_port=10 queue=20 sid=4
+[   15.539594] [cbm] { dp_enable : 3698 }enable queue 20
+[   15.544570] [cbm] { dp_enable : 3699 }flag 1 refcnt 1024
+[   15.551500] [ltq_eth_drv_xrx500] { setup_avm_pa_eth_dev : 1350 }[setup_avm_pa_eth_dev] dev eth0
+[   15.559090] [cbm] { dp_port_alloc : 3193 }flags 0x4
+[   15.563655] [cbm] { cbm_add_to_list : 427 }1
+[   15.567890] [cbm] { dp_port_alloc : 3342 }disabling q 28 port 19
+[   15.573880] [cbm] { dp_port_alloc : 3348 }first time LOOKUP prgrm
+[   15.580366] [cbm] { dp_port_alloc : 3353 }1024
+[   15.584740] [ltq_eth_drv_xrx500] { xrx500_of_iface : 1598 }xrx500_of_iface: rx csum offload is enabled !
+[   15.593888] [ltq_eth_drv_xrx500] { xrx500_mdio_probe : 1796 }trying to connect: wan to device: 1:01 with irq: 294
+[   15.748221] [ltq_eth_drv_xrx500] { xrx500_mdio_probe : 1814 }wan: attached PHY [Lantiq XWAY VR9 GPHY 11G v1.4] (phy_addr=1:01, irq=294)
+[   15.765294] [cbm] { dp_enable : 3657 }ep=15 tmu_port=19 queue=28 sid=12
+[   15.770476] [cbm] { dp_enable : 3698 }enable queue 28
+[   15.775462] [cbm] { dp_enable : 3699 }flag 1 refcnt 1024
+[   15.782368] [ltq_eth_drv_xrx500] { setup_avm_pa_eth_dev : 1350 }[setup_avm_pa_eth_dev] dev wan
+[   15.789814] [ltq_eth_drv_xrx500] { ltq_eth_drv_init : 2234 }Lantiq ethernet driver for XRX500 init.
+[   15.881333] 
+[   15.881333] [avm_debug] redirecting kernel-messages (/dev/debug)

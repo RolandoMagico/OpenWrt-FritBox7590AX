@@ -1,0 +1,597 @@
+
+ROM VER: 2.1.0
+CFG 09
+B
+.
+.
+.
+
+*
+
+ROM VER: 2.1.0
+CFG 09
+B
+.
+.
+.
+
+*
+*
+*
+*
+Detected PXB4583el V1.2-2000
+
+[piglet] Skipped, because of Subrevision without FPGA
+
+(AVM) EVA Revision: 1.11744 55a8fb62
+(C) Copyright 2018 AVM Date: Nov  8 2021 Time: 11:53:20 (0) 3 0x0-0x46409
+
+[NAND:] 512MB TOSHIBA 4096 Pagesize 256k Blocksize 2048 Blocks HW
+[SYSTEM:] GRX5 (ID 0x24 Revision 2) on 1000MHz/600MHz/666MHz
+..
+
+Eva_AVM >
+ROM VER: 2.1.0
+CFG 09
+B
+.
+.
+.
+
+*
+
+ROM VER: 2.1.0
+CFG 09
+B
+.
+.
+.
+
+*
+*
+*
+*
+Detected PXB4583el V1.2-2000
+
+[piglet] Skipped, because of Subrevision without FPGA
+
+(AVM) EVA Revision: 1.11744 55a8fb62
+(C) Copyright 2018 AVM Date: Nov  8 2021 Time: 11:53:20 (0) 3 0x0-0x46409
+
+[NAND:] 512MB TOSHIBA 4096 Pagesize 256k Blocksize 2048 Blocks HW
+[SYSTEM:] GRX5 (ID 0x24 Revision 2) on 1000MHz/600MHz/666MHz
+..
+
+Eva_AVM >.......................................................................                                                                                                                                   ................................................................................                                                                                                                                   ..................................................
+-------------------------------------------
+
+
+
+      Switching to Interaptiv Console
+
+
+-------------------------------------------
+..
+
+Using Device Tree Blob of SubRevision 4
+Error: Could not find node nand-parts in Device Tree
+[    0.000000] Linux version 6.18.52 (builder@buildhost) (mips-openwrt-linux-mus                                                                                                                                   l-gcc (OpenWrt GCC 14.4.0 r36395-0cde82a688) 14.4.0, GNU ld (GNU Binutils) 2.46.                                                                                                                                   1) #0 SMP Sun Oct 18 05:55:47 2026
+[    0.000000] CPU0 revision is: 0001a120 (MIPS interAptiv (multi))
+[    0.000000] MIPS: machine is AVM FRITZ!Box 7590
+[    0.000000] Coherence Manager IOCU detected
+[    0.000000] software DMA cache coherency enforced
+[    0.000000] earlycon: lantiq0 at MMIO 0x16600000 (options '')
+[    0.000000] printk: legacy bootconsole [lantiq0] enabled
+[    0.000000] Initrd not found or empty - disabling initrd
+[    0.000000] OF: reserved mem: 0x20000000..0x20000fff (4 KiB) nomap non-reusab                                                                                                                                   le vmb@20000000
+[    0.000000] OF: reserved mem: 0x20001000..0x200011ff (0 KiB) nomap non-reusab                                                                                                                                   le avm-reboot-string@20001000
+[    0.000000] OF: reserved mem: 0x20010000..0x2003ffff (192 KiB) nomap non-reus                                                                                                                                   able urlader@20010000
+[    0.000000] OF: reserved mem: 0x23800000..0x249fffff (18432 KiB) nomap non-re                                                                                                                                   usable cbm-std-pool@23800000
+[    0.000000] OF: reserved mem: 0x24a00000..0x251fffff (8192 KiB) nomap non-reu                                                                                                                                   sable cbm-jbo-pool@24a00000
+[    0.000000] OF: reserved mem: 0x20100000..0x201fffff (1024 KiB) map non-reusa                                                                                                                                   ble ramoops@20100000
+[    0.000000] OF: reserved mem: 0x20200000..0x204fffff (3072 KiB) nomap non-reu                                                                                                                                   sable avm-reserved@20200000
+[    0.000000] OF: reserved mem: 0x2dfc0000..0x2dffffff (256 KiB) nomap non-reus                                                                                                                                   able cpunet@2dfc0000
+[    0.000000] OF: reserved mem: 0x2e000000..0x2fffffff (32768 KiB) nomap non-re                                                                                                                                   usable bootcore@2e000000
+[    0.000000] OF: reserved mem: 0x3dfb0000..0x3dfb0fff (4 KiB) nomap non-reusab                                                                                                                                   le shm-rng-seed@3dfb0000
+[    0.000000] vmb-smp: VPE topology {2,2} total 4, 4 released by the firmware
+[    0.000000] Primary instruction cache 32kB, VIPT, 4-way, linesize 32 bytes.
+[    0.000000] Primary data cache 32kB, 4-way, PIPT, no aliases, linesize 32 byt                                                                                                                                   es
+[    0.000000] MIPS secondary cache 256kB, 8-way, linesize 32 bytes.
+[    0.000000] Zone ranges:
+[    0.000000]   DMA      [mem 0x0000000020000000-0x000000002fffffff]
+[    0.000000]   Normal   [mem 0x0000000030000000-0x000000003fffffff]
+[    0.000000] Movable zone start for each node
+[    0.000000] Early memory node ranges
+[    0.000000]   node   0: [mem 0x0000000020000000-0x0000000020000fff]
+[    0.000000]   node   0: [mem 0x0000000020002000-0x000000002000ffff]
+[    0.000000]   node   0: [mem 0x0000000020010000-0x000000002003ffff]
+[    0.000000]   node   0: [mem 0x0000000020040000-0x00000000201fffff]
+[    0.000000]   node   0: [mem 0x0000000020200000-0x00000000204fffff]
+[    0.000000]   node   0: [mem 0x0000000020500000-0x00000000237fffff]
+[    0.000000]   node   0: [mem 0x0000000023800000-0x00000000251fffff]
+[    0.000000]   node   0: [mem 0x0000000025200000-0x000000002dfbffff]
+[    0.000000]   node   0: [mem 0x000000002dfc0000-0x000000002fffffff]
+[    0.000000]   node   0: [mem 0x0000000030000000-0x000000003dfaffff]
+[    0.000000]   node   0: [mem 0x000000003dfb0000-0x000000003dfb0fff]
+[    0.000000]   node   0: [mem 0x000000003dfb1000-0x000000003fffffff]
+[    0.000000] Initmem setup node 0 [mem 0x0000000020000000-0x000000003fffffff]
+[    0.000000] On node 0, zone DMA: 1 pages in unavailable ranges
+[    0.000000] percpu: Embedded 12 pages/cpu s18896 r8192 d22064 u49152
+[    0.000000] Kernel command line: earlycon=lantiq,0x16600000 console=ttyLTQ0,1                                                                                                                                   15200n8r
+[    0.000000] printk: log buffer data + meta data: 131072 + 409600 = 540672 byt                                                                                                                                   es
+[    0.000000] Dentry cache hash table entries: 65536 (order: 6, 262144 bytes, l                                                                                                                                   inear)
+[    0.000000] Inode-cache hash table entries: 32768 (order: 5, 131072 bytes, li                                                                                                                                   near)
+[    0.000000] ebase(0x200a8000) should better be in KSeg0
+[    0.000000] Writing ErrCtl register=00000000
+[    0.000000] Readback ErrCtl register=00000000
+[    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 131071
+[    0.000000] mem auto-init: stack:off, heap alloc:off, heap free:off
+[    0.000000] SLUB: HWalign=32, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+[    0.000000] rcu: Hierarchical RCU implementation.
+[    0.000000]  Tracing variant of Tasks RCU enabled.
+[    0.000000] rcu: RCU calculated value of scheduler-enlistment delay is 25 jif                                                                                                                                   fies.
+[    0.000000] RCU Tasks Trace: Setting shift to 2 and lim to 1 rcu_task_cb_adju                                                                                                                                   st=1 rcu_task_cpu_ids=4.
+[    0.000000] NR_IRQS: 256
+[    0.000000] EIC is off
+[    0.000000] VINT is on
+[    0.000000] irq-mips-gic: Shared interrupt 20 left to the firmware
+[    0.000000] irq-mips-gic: Shared interrupt 21 left to the firmware
+[    0.000000] irq-mips-gic: Shared interrupt 85 left to the firmware
+[    0.000000] rcu: srcu_init: Setting srcu_struct sizes based on contention.
+[    0.000000] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, ma                                                                                                                                   x_idle_ns: 7645041785100000 ns
+[    0.000000] CPU Clock: 1000000000Hz  mips_hpt_frequency 500000000Hz
+[    0.000000] timer_probe: no matching timers found
+[    0.000000] clocksource: MIPS: mask: 0xffffffff max_cycles: 0xffffffff, max_i                                                                                                                                   dle_ns: 3822520893 ns
+[    0.000000] sched_clock: 32 bits at 250 Hz, resolution 4000000ns, wraps every                                                                                                                                    8589934590000000ns
+[    0.004000] Calibrating delay loop... 663.55 BogoMIPS (lpj=1327104)
+[    0.040000] pid_max: default: 32768 minimum: 301
+[    0.052000] Mount-cache hash table entries: 1024 (order: 0, 4096 bytes, linea                                                                                                                                   r)
+[    0.056000] Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes,                                                                                                                                    linear)
+[    0.072000] vmb-smp: CCA 5 is coherent, multi-core is fine
+[    0.076000] rcu: Hierarchical SRCU implementation.
+[    0.080000] rcu:     Max phase no-delay instances is 1000.
+[    0.084000] smp: Bringing up secondary CPUs ...
+GOT IPI to launch from CPU 1
+[    0.088000] Primary instruction cache 32kB, VIPT, 4-way, linesize 32 bytes.
+[    0.088000] Primary data cache 32kB, 4-way, PIPT, no aliases, linesize 32 byt                                                                                                                                   es
+[    0.088000] MIPS secondary cache 256kB, 8-way, linesize 32 bytes.
+[    0.088000] CPU1 revision is: 0001a120 (MIPS interAptiv (multi))
+[    0.120000] Counter synchronization [CPU#0 -> CPU#1]: passed
+GOT IPI to launch from CPU 2
+[    0.124000] Primary instruction cache 32kB, VIPT, 4-way, linesize 32 bytes.
+[    0.124000] Primary data cache 32kB, 4-way, PIPT, no aliases, linesize 32 byt                                                                                                                                   es
+[    0.124000] MIPS secondary cache 256kB, 8-way, linesize 32 bytes.
+[    0.124000] CPU2 revision is: 0001a120 (MIPS interAptiv (multi))
+[    0.156000] Counter synchronization [CPU#0 -> CPU#2]:
+GOT IPI to launch from CPU 3
+[    0.156000] Measured 6 cycles counter warp between CPUs
+[    0.160000] Primary instruction cache 32kB, VIPT, 4-way, linesize 32 bytes.
+[    0.160000] Primary data cache 32kB, 4-way, PIPT, no aliases, linesize 32 byt                                                                                                                                   es
+[    0.160000] MIPS secondary cache 256kB, 8-way, linesize 32 bytes.
+[    0.160000] CPU3 revision is: 0001a120 (MIPS interAptiv (multi))
+[    0.192000] Counter synchronization [CPU#0 -> CPU#3]: passed
+[    0.196000] smp: Brought up 1 node, 4 CPUs
+[    0.200000] Memory: 423180K/524284K available (9358K kernel code, 656K rwdata                                                                                                                                   , 1972K rodata, 18212K init, 234K bss, 99656K reserved, 0K cma-reserved)
+[    0.208000] posixtimers hash table entries: 2048 (order: 2, 16384 bytes, line                                                                                                                                   ar)
+[    0.212000] futex hash table entries: 1024 (32768 bytes on 1 NUMA nodes, tota                                                                                                                                   l 32 KiB, linear).
+[    0.220000] pinctrl core: initialized pinctrl subsystem
+[    0.224000] NET: Registered PF_NETLINK/PF_ROUTE protocol family
+[    0.228000] thermal_sys: Registered thermal governor 'step_wise'
+[    0.228000] pstore: Using crash dump compression: deflate
+[    0.236000] printk: legacy console [ramoops-1] enabled
+[    0.240000] pstore: Registered ramoops as persistent store backend
+[    0.244000] ramoops: using 0x100000@0x20100000, ecc: 0
+[    0.252000] hdma: probe entry cid=1 name=dma1tx reg=0x1a100000 irq=17
+[    0.256000] hdma: probe entry cid=2 name=dma1rx reg=0x1a200000 irq=34
+[    0.260000] hdma: probe entry cid=3 name=dma2tx reg=0x1c100000 irq=47
+[    0.264000] hdma: probe entry cid=4 name=dma2rx reg=0x1c200000 irq=64
+[    0.280000] usbcore: registered new interface driver usbfs
+[    0.284000] usbcore: registered new interface driver hub
+[    0.288000] usbcore: registered new device driver usb
+[    0.292000] clocksource: Switched to clocksource MIPS
+[    0.308000] NET: Registered PF_INET protocol family
+[    0.312000] IP idents hash table entries: 8192 (order: 4, 65536 bytes, linear                                                                                                                                   )
+[    0.320000] tcp_listen_portaddr_hash hash table entries: 512 (order: 0, 4096                                                                                                                                    bytes, linear)
+[    0.328000] Table-perturb hash table entries: 65536 (order: 6, 262144 bytes,                                                                                                                                    linear)
+[    0.336000] TCP established hash table entries: 4096 (order: 2, 16384 bytes,                                                                                                                                    linear)
+[    0.344000] TCP bind hash table entries: 4096 (order: 4, 65536 bytes, linear)
+[    0.348000] TCP: Hash tables configured (established 4096 bind 4096)
+[    0.356000] MPTCP token hash table entries: 512 (order: 1, 8192 bytes, linear                                                                                                                                   )
+[    0.364000] UDP hash table entries: 256 (order: 2, 14336 bytes, linear)
+[    0.368000] UDP-Lite hash table entries: 256 (order: 2, 14336 bytes, linear)
+[    0.376000] NET: Registered PF_UNIX/PF_LOCAL protocol family
+[    0.384000] PCI: CLS 0 bytes, default 32
+[    0.388000] workingset: timestamp_bits=14 max_order=17 bucket_order=3
+[    0.396000] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+[    0.400000] jffs2: version 2.2 (NAND) (SUMMARY) (LZMA) (RTIME) (CMODE_PRIORIT                                                                                                                                   Y) (c) 2001-2006 Red Hat, Inc.
+[    0.416000] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 2                                                                                                                                   52)
+[    0.432000] Serial: 8250/16550 driver, 16 ports, IRQ sharing enabled
+[    0.444000] 16600000.serial: ttyLTQ0 at MMIO 0x16600000 (irq = 99, base_baud                                                                                                                                    = 0) is a lantiq,asc
+[    0.452000] printk: legacy console [ttyLTQ0] enabled
+[    0.452000] printk: legacy console [ttyLTQ0] enabled
+[    0.464000] printk: legacy bootconsole [lantiq0] disabled
+[    0.464000] printk: legacy bootconsole [lantiq0] disabled
+[    0.476000] nand: device found, Manufacturer ID: 0x98, Chip ID: 0xdc
+[    0.480000] nand: Toshiba NAND 512MiB 3,3V 8-bit
+[    0.488000] nand: 512 MiB, SLC, erase size: 256 KiB, page size: 4096, OOB siz                                                                                                                                   e: 128
+[    0.492000] Scanning device for bad blocks
+[    1.112000] Bad eraseblock 1536 at 0x000018000000
+[    1.116000] Bad eraseblock 1537 at 0x000018040000
+[    1.308000] 5 fixed-partitions partitions found on MTD device nand0
+[    1.316000] Creating 5 MTD partitions on "nand0":
+[    1.320000] 0x000000000000-0x000000100000 : "urlader"
+[    1.328000] 0x000000100000-0x000000500000 : "nand-tffs"
+[    1.332000] 0x000000500000-0x000000d00000 : "kernel0"
+[    1.336000] 0x000000d00000-0x000001500000 : "kernel1"
+[    1.340000] 0x000001500000-0x000020000000 : "ubi"
+[    1.356000] cbm: reserved-memory std-pool resolved @ phys 0x23800000 size 0x1                                                                                                                                   200000 (frm_size=2048 frm_num=9216)
+[    1.364000] cbm: reserved-memory jumbo-pool resolved @ phys 0x24a00000 size 0                                                                                                                                   x800000 (frm_size=8192 frm_num=1024)
+[    1.372000] hdma: hdma: TOE/DMA3 DMA_ID=0x04024c0a chans=64 ports=1(post-dec)                                                                                                                                    ver=10
+[    1.380000] hdma: hdma: TOE/DMA3 reset done: DMA_CTRL=0x80040202 CPOLL=0x8000                                                                                                                                   0180
+[    1.388000] cbm: chiptop parity applied (ipt_endian, ifmux)
+[    1.396000] cbm: init_fsqm idx=0 frm_num=9216 OFSC=0x000023ff (lsarng=0x23fe0                                                                                                                                   000 ofsq=0x23fe0000)
+[    1.404000] cbm: init_fsqm idx=1 frm_num=1024 OFSC=0x000003ff (lsarng=0x03fe0                                                                                                                                   000 ofsq=0x03fe0000)
+[    1.412000] cbm: init_cbm_basic: PHY ADDR STD 0x23800000
+[    1.416000] cbm: init_cbm_basic: PHY ADDR JBO 0x24a00000
+[    1.424000] cbm: init basic CBM successfully (jsel=0)
+[    1.428000] cbm: post-init FSQM0 OFSC=0x000023ff OFSQ=0x23fe0000
+[    1.432000] cbm: post-init FSQM1 OFSC=0x000003ff OFSQ=0x03fe0000
+[    1.440000] cbm: post-init SBA_0=0x23800000 JBA_0=0x24a00000 CBM_CTRL=0x00000                                                                                                                                   000
+[    1.448000] cbm: EQM DMA ports 5-8 seeded (std + jumbo)
+[    1.452000] tmu: probe complete, EPOC zeroed at t=4294892660
+[    1.460000] cbm: QIDT whole-table drop-fill done (0x1000 words = qid 255)
+[    1.464000] cbm: init_cbm_dqm_cpu_port: idx=2 CFG_CPU_EGP=0x0002010f (EPMAP=2                                                                                                                                    num_desc=2)
+[    1.472000] tmu: egress path built: epn=2 sbid=19 qid=35 (EPMT.EPE=1)
+[    1.480000] cbm: CPU ingress QIDT ep0->q35 programmed (512 slots, flowidl 0..                                                                                                                                   1)
+[    1.488000] cbm: init_cbm_dqm_cpu_port: idx=1 CFG_CPU_EGP=0x0001010f (EPMAP=1                                                                                                                                    num_desc=2)
+[    1.496000] tmu: egress path built: epn=1 sbid=18 qid=34 (EPMT.EPE=1)
+[    1.500000] cbm: init_cbm_dqm_cpu_port: idx=3 CFG_CPU_EGP=0x0003010f (EPMAP=3                                                                                                                                    num_desc=2)
+[    1.508000] tmu: egress path built: epn=3 sbid=20 qid=36 (EPMT.EPE=1)
+[    1.516000] cbm: init_cbm_dqm_cpu_port: idx=0 CFG_CPU_EGP=0x0000010f (EPMAP=0                                                                                                                                    num_desc=0)
+[    1.524000] cbm: init_cbm_dqm_cpu_port: idx=1 CFG_CPU_EGP=0x0001010f (EPMAP=1                                                                                                                                    num_desc=2)
+[    1.532000] cbm: init_cbm_dqm_cpu_port: idx=2 CFG_CPU_EGP=0x0002010f (EPMAP=2                                                                                                                                    num_desc=2)
+[    1.540000] cbm: init_cbm_dqm_cpu_port: idx=3 CFG_CPU_EGP=0x0003010f (EPMAP=3                                                                                                                                    num_desc=2)
+[    1.548000] cbm: QIDT ep7->q35 programmed (1024 slots, all dims dontcare)
+[    1.556000] cbm: init_cbm_dqm_dma_port: dqp=7 slot=1 CFG_DMA_EGP=0x00070101 (                                                                                                                                   EPMAP=7 DQREQ DQPCEN)
+[    1.564000] tmu: egress path built: epn=7 sbid=1 qid=17 (EPMT.EPE=1)
+[    1.572000] cbm: dp2 egress preconfigured at probe (deq7/q17/sbid1) before co                                                                                                                                   ntroller enable
+[    1.580000] cbm: init_cbm_dqm_dma_port: dqp=8 slot=2 CFG_DMA_EGP=0x00080101 (                                                                                                                                   EPMAP=8 DQREQ DQPCEN)
+[    1.588000] tmu: egress path built: epn=8 sbid=2 qid=18 (EPMT.EPE=1)
+[    1.592000] cbm: dp3 egress preconfigured at probe (deq8/q18/sbid2) before co                                                                                                                                   ntroller enable
+[    1.604000] cbm: init_cbm_dqm_dma_port: dqp=9 slot=3 CFG_DMA_EGP=0x00090101 (                                                                                                                                   EPMAP=9 DQREQ DQPCEN)
+[    1.612000] tmu: egress path built: epn=9 sbid=3 qid=19 (EPMT.EPE=1)
+[    1.616000] cbm: dp4 egress preconfigured at probe (deq9/q19/sbid3) before co                                                                                                                                   ntroller enable
+[    1.624000] cbm: init_cbm_dqm_dma_port: dqp=10 slot=4 CFG_DMA_EGP=0x000a0101                                                                                                                                    (EPMAP=10 DQREQ DQPCEN)
+[    1.636000] tmu: egress path built: epn=10 sbid=4 qid=20 (EPMT.EPE=1)
+[    1.640000] cbm: dp5 egress preconfigured at probe (deq10/q20/sbid4) before c                                                                                                                                   ontroller enable
+[    1.648000] cbm: init_cbm_dqm_dma_port: dqp=19 slot=13 CFG_DMA_EGP=0x00130101                                                                                                                                    (EPMAP=19 DQREQ DQPCEN)
+[    1.660000] tmu: egress path built: epn=19 sbid=12 qid=28 (EPMT.EPE=1)
+[    1.664000] cbm: dp15 egress preconfigured at probe (deq19/q28/sbid12) before                                                                                                                                    controller enable
+[    1.672000] cbm: controllers enabled (EQM_CTRL=0x00000015 DQM_CTRL=0x00000015                                                                                                                                   )
+[    1.680000] cbm: EQM enqueue-delay enabled (EQM_CTRL=0x00000755 want 0x751; D                                                                                                                                   CNTR[0]=0x00000110 want 0x10)
+[    1.692000] cbm: init_cbm_dqm_dma_port: dqp=7 slot=1 CFG_DMA_EGP=0x00070101 (                                                                                                                                   EPMAP=7 DQREQ DQPCEN)
+[    1.700000] hdma: hdma_port_enable(7): DMA2TX_CBM_P7_CLASS2 CBM-managed, desc                                                                                                                                   @phys 0x1e542000 x2
+[    1.708000] hdma: hdma_port_enable(7): opened DMA2TX_CBM_P7_CLASS2 (cid=3 pid                                                                                                                                   =0 nid=2)
+[    1.716000] cbm: DMA2TX ch2 opened at probe-end for deq 7 (AVM order)
+[    1.724000] cbm: init_cbm_dqm_dma_port: dqp=8 slot=2 CFG_DMA_EGP=0x00080101 (                                                                                                                                   EPMAP=8 DQREQ DQPCEN)
+[    1.732000] hdma: hdma_port_enable(8): DMA2TX_CBM_P8_CLASS3 CBM-managed, desc                                                                                                                                   @phys 0x1e543000 x2
+[    1.740000] hdma: hdma_port_enable(8): opened DMA2TX_CBM_P8_CLASS3 (cid=3 pid                                                                                                                                   =0 nid=3)
+[    1.748000] cbm: DMA2TX ch3 opened at probe-end for deq 8 (AVM order)
+[    1.756000] cbm: init_cbm_dqm_dma_port: dqp=9 slot=3 CFG_DMA_EGP=0x00090101 (                                                                                                                                   EPMAP=9 DQREQ DQPCEN)
+[    1.764000] hdma: hdma_port_enable(9): DMA2TX_CBM_P9_CLASS4 CBM-managed, desc                                                                                                                                   @phys 0x1e544000 x2
+[    1.772000] hdma: hdma_port_enable(9): opened DMA2TX_CBM_P9_CLASS4 (cid=3 pid                                                                                                                                   =0 nid=4)
+[    1.780000] cbm: DMA2TX ch4 opened at probe-end for deq 9 (AVM order)
+[    1.788000] cbm: init_cbm_dqm_dma_port: dqp=10 slot=4 CFG_DMA_EGP=0x000a0101                                                                                                                                    (EPMAP=10 DQREQ DQPCEN)
+[    1.796000] hdma: hdma_port_enable(10): DMA2TX_CBM_P10_CLASS5 CBM-managed, de                                                                                                                                   sc@phys 0x1e545000 x2
+[    1.804000] hdma: hdma_port_enable(10): opened DMA2TX_CBM_P10_CLASS5 (cid=3 p                                                                                                                                   id=0 nid=5)
+[    1.812000] cbm: DMA2TX ch5 opened at probe-end for deq 10 (AVM order)
+[    1.820000] cbm: init_cbm_dqm_dma_port: dqp=19 slot=13 CFG_DMA_EGP=0x00130101                                                                                                                                    (EPMAP=19 DQREQ DQPCEN)
+[    1.828000] hdma: hdma_port_enable(19): DMA1TX_GSWIP_R_WAN_CBMP19_CLASS15 CBM                                                                                                                                   -managed, desc@phys 0x1e54e000 x2
+[    1.836000] hdma: hdma_port_enable(19): opened DMA1TX_GSWIP_R_WAN_CBMP19_CLAS                                                                                                                                   S15 (cid=1 pid=0 nid=15)
+[    1.848000] cbm: DMA1TX ch15 opened at probe-end for deq 19 (AVM order)
+[    1.852000] cbm: EQM RX chan 67108878 opened (cbm_port 5, std)
+[    1.860000] cbm: EQM RX chan 67108879 opened (cbm_port 6, std)
+[    1.864000] cbm: EQM RX chan 67108894 opened (cbm_port 5, jumbo)
+[    1.872000] cbm: EQM RX chan 67108895 opened (cbm_port 6, jumbo)
+[    1.876000] cbm: EQM RX chan 33554432 opened (cbm_port 7, std)
+[    1.884000] cbm: EQM RX chan 33554437 opened (cbm_port 8, std)
+[    1.888000] cbm: EQM RX chan 33554438 opened (cbm_port 7, jumbo)
+[    1.896000] cbm: EQM RX chan 33554443 opened (cbm_port 8, jumbo)
+[    1.900000] xrx500-buffer-manager 1e700000.ethernet: 1e700000.ethernet: CBM X                                                                                                                                   RX500 ready (reserved-memory pools 18MiB std / 8MiB jbo)
+[    1.916000] xrx500-cbm 1e700000.ethernet:ethernet@0: std-pool at 0x23800000,                                                                                                                                    9216 segments of 2048 bytes
+[    1.924000] xrx500-cbm 1e700000.ethernet:ethernet@0: jumbo-pool at 0x24a00000                                                                                                                                   , 1024 segments of 8192 bytes
+[    1.932000] xrx500-cbm 1e700000.ethernet:ethernet@0: return port 0: 0x0000010                                                                                                                                   7 -> 0x0000010f
+[    1.940000] xrx500-cbm 1e700000.ethernet:ethernet@0: return port 1: 0x0001010                                                                                                                                   7 -> 0x0001010f
+[    1.948000] xrx500-cbm 1e700000.ethernet:ethernet@0: return port 2: 0x0002010                                                                                                                                   7 -> 0x0002010f
+[    1.956000] xrx500-cbm 1e700000.ethernet:ethernet@0: return port 3: 0x0003010                                                                                                                                   7 -> 0x0003010f
+[    1.968000] xrx500-cbm 1e700000.ethernet:ethernet@0: dequeue port 7 configure                                                                                                                                   d (0x00070101)
+[    1.976000] xrx500-cbm 1e700000.ethernet:ethernet@0: egress path: port 7 bloc                                                                                                                                   k 1 queue 17 input 8
+[    1.984000] xrx500-cbm 1e700000.ethernet:ethernet@0: dequeue port 8 configure                                                                                                                                   d (0x00080101)
+[    1.992000] xrx500-cbm 1e700000.ethernet:ethernet@0: egress path: port 8 bloc                                                                                                                                   k 2 queue 18 input 16
+[    2.000000] xrx500-cbm 1e700000.ethernet:ethernet@0: dequeue port 9 configure                                                                                                                                   d (0x00090101)
+[    2.008000] xrx500-cbm 1e700000.ethernet:ethernet@0: egress path: port 9 bloc                                                                                                                                   k 3 queue 19 input 24
+[    2.016000] xrx500-cbm 1e700000.ethernet:ethernet@0: dequeue port 10 configur                                                                                                                                   ed (0x000a0101)
+[    2.028000] xrx500-cbm 1e700000.ethernet:ethernet@0: egress path: port 10 blo                                                                                                                                   ck 4 queue 20 input 32
+[    2.036000] xrx500-cbm 1e700000.ethernet:ethernet@0: channel 2: control 0x000                                                                                                                                   10501 base 0x1e542000 length 2
+[    2.044000] xrx500-cbm 1e700000.ethernet:ethernet@0: channel 3: control 0x000                                                                                                                                   10701 base 0x1e543000 length 2
+[    2.056000] xrx500-cbm 1e700000.ethernet:ethernet@0: channel 4: control 0x000                                                                                                                                   10901 base 0x1e544000 length 2
+[    2.064000] xrx500-cbm 1e700000.ethernet:ethernet@0: channel 5: control 0x000                                                                                                                                   10b01 base 0x1e545000 length 2
+[    2.076000] xrx500-cbm 1e700000.ethernet:ethernet@0: cbm0 port 2 on queue 1:                                                                                                                                    dequeue 7 traffic queue 17 channel 2
+[    2.084000] xrx500-cbm 1e700000.ethernet:ethernet@0: cbm0 port 3 on queue 2:                                                                                                                                    dequeue 8 traffic queue 18 channel 3
+[    2.096000] xrx500-cbm 1e700000.ethernet:ethernet@0: cbm0 port 4 on queue 3:                                                                                                                                    dequeue 9 traffic queue 19 channel 4
+[    2.104000] xrx500-cbm 1e700000.ethernet:ethernet@0: cbm0 port 5 on queue 4:                                                                                                                                    dequeue 10 traffic queue 20 channel 5
+[    2.116000] xrx500-cbm 1e700000.ethernet:ethernet@0: cbm0 ready, 9172 free se                                                                                                                                   gments
+[    2.124000] xrx500-cbm 1e700000.ethernet:ethernet@1: std-pool at 0x23800000,                                                                                                                                    9216 segments of 2048 bytes
+[    2.132000] xrx500-cbm 1e700000.ethernet:ethernet@1: jumbo-pool at 0x24a00000                                                                                                                                   , 1024 segments of 8192 bytes
+[    2.144000] xrx500-cbm 1e700000.ethernet:ethernet@1: return port 0: 0x0000010                                                                                                                                   7 -> 0x0000010f
+[    2.152000] xrx500-cbm 1e700000.ethernet:ethernet@1: return port 1: 0x0001010                                                                                                                                   7 -> 0x0001010f
+[    2.160000] xrx500-cbm 1e700000.ethernet:ethernet@1: return port 2: 0x0002010                                                                                                                                   7 -> 0x0002010f
+[    2.168000] xrx500-cbm 1e700000.ethernet:ethernet@1: return port 3: 0x0003010                                                                                                                                   7 -> 0x0003010f
+[    2.176000] xrx500-cbm 1e700000.ethernet:ethernet@1: dequeue port 19 configur                                                                                                                                   ed (0x00130101)
+[    2.184000] xrx500-cbm 1e700000.ethernet:ethernet@1: egress path: port 19 blo                                                                                                                                   ck 12 queue 28 input 96
+[    2.192000] xrx500-cbm 1e700000.ethernet:ethernet@1: channel 15: control 0x00                                                                                                                                   050f01 base 0x1e54e000 length 2
+[    2.204000] xrx500-cbm 1e700000.ethernet:ethernet@1: cbm1 port 15 on queue 1:                                                                                                                                    dequeue 19 traffic queue 28 channel 15
+[    2.212000] xrx500-cbm 1e700000.ethernet:ethernet@1: cbm1 ready, 9172 free se                                                                                                                                   gments
+[    2.232000] grx500-wdt: tick rate measured 999982300 Hz, clk 1000000000 Hz (d                                                                                                                                   elta -17 ppm)
+[    2.240000] grx500-wdt: max_hw_heartbeat_ms=3865 pretimeout=4 initial0=0xffff                                                                                                                                   ffff
+[    2.248000] grx500-wdt: RCU_IAP_WDT_RST_EN readback=0x0000000f
+[    2.252000] grx500-wdt: RCU_IAP_WDT_RST_STAT=0x20000008 bootstatus=0x0
+[    2.260000] grx500-wdt: VP0 WD_CONFIG0=0x00000022 after writing WDINTR back:                                                                                                                                    WDINTR reads 0 after writing 1 (write-1-to-clear, or not implemented)
+[    2.272000] grx500-wdt: VP1 WD_CONFIG0=0x00000022 after writing WDINTR back:                                                                                                                                    WDINTR reads 0 after writing 1 (write-1-to-clear, or not implemented)
+[    2.284000] grx500-wdt: VP2 WD_CONFIG0=0x00000022 after writing WDINTR back:                                                                                                                                    WDINTR reads 0 after writing 1 (write-1-to-clear, or not implemented)
+[    2.300000] grx500-wdt: VP3 WD_CONFIG0=0x00000022 after writing WDINTR back:                                                                                                                                    WDINTR reads 0 after writing 1 (write-1-to-clear, or not implemented)
+[    2.312000] grx500-wdt: pretimeout irq 103
+[    2.316000] NET: Registered PF_INET6 protocol family
+[    2.324000] Segment Routing with IPv6
+[    2.324000] In-situ OAM (IOAM) with IPv6
+[    2.328000] NET: Registered PF_PACKET protocol family
+[    2.336000] bridge: filtering via arp/ip/ip6tables is no longer available by                                                                                                                                    default. Update your scripts to load br_netfilter if you need this.
+[    2.348000] 8021q: 802.1Q VLAN Support v1.8
+[    2.384000] intel-gw-pcie 18900000.pcie: host bridge /pcie@18900000 ranges:
+[    2.388000] intel-gw-pcie 18900000.pcie:      MEM 0x00b8000000..0x00baffffff                                                                                                                                    -> 0x00b8000000
+[    2.396000] intel-gw-pcie 18900000.pcie: config reg[1] 0xbb000000 == cpu 0xbb                                                                                                                                   000000
+[    2.396000] ; no fixup was ever needed for this devicetree
+[    2.408000] intel-gw-pcie 18900000.pcie: chiptop endian 0x4c: 0x0000c221 (in                                                                                                                                    bit 5 swap 1, out bit 4 swap 0)
+[    2.624000] intel-gw-pcie 18900000.pcie: PCIe Gen.2 x1 link up
+[    2.628000] intel-gw-pcie 18900000.pcie: No iATU regions found
+[    2.728000] intel-gw-pcie 18900000.pcie: PCIe Gen.2 x1 link up
+[    2.732000] intel-gw-pcie 18900000.pcie: PCI host bridge to bus 0000:00
+[    2.736000] pci_bus 0000:00: root bus resource [bus 00-07]
+[    2.744000] pci_bus 0000:00: root bus resource [mem 0xb8000000-0xbaffffff]
+[    2.748000] pci 0000:00:00.0: [1bef:0030] type 01 class 0x060400 PCIe Root Po                                                                                                                                   rt
+[    2.756000] pci_bus 0000:00: 2-byte config write to 0000:00:00.0 offset 0x4 m                                                                                                                                   ay corrupt adjacent RW1C bits
+[    2.768000] pci 0000:00:00.0: PCI bridge to [bus 01-ff]
+[    2.772000] pci 0000:00:00.0:   bridge window [io  0x0000-0x0fff]
+[    2.776000] pci 0000:00:00.0:   bridge window [mem 0x00000000-0x000fffff]
+[    2.784000] pci 0000:00:00.0:   bridge window [mem 0x00000000-0x000fffff pref                                                                                                                                   ]
+[    2.792000] pci 0000:00:00.0: supports D1 D2
+[    2.796000] pci 0000:00:00.0: PME# supported from D0 D1 D3hot D3cold
+[    2.804000] pci 0000:01:00.0: [8086:09d0] type 00 class 0x0d8000 PCIe Endpoin                                                                                                                                   t
+[    2.808000] pci_bus 0000:01: 2-byte config write to 0000:01:00.0 offset 0x4 m                                                                                                                                   ay corrupt adjacent RW1C bits
+[    2.820000] pci 0000:01:00.0: BAR 0 [mem 0x00000000-0x01ffffff]
+[    2.824000] pci 0000:01:00.0: supports D1 D2
+[    2.828000] pci 0000:01:00.0: PME# supported from D0 D1 D3hot D3cold
+[    2.836000] pci 0000:01:00.0: 4.000 Gb/s available PCIe bandwidth, limited by                                                                                                                                    5.0 GT/s PCIe x1 link at 0000:00:00.0 (capable of 15.752 Gb/s with 8.0 GT/s PCI                                                                                                                                   e x2 link)
+[    2.852000] pci 0000:00:00.0: PCI bridge to [bus 01-07]
+[    2.856000] pci_bus 0000:01: busn_res: [bus 01-07] end is updated to 01
+[    2.860000] pci 0000:00:00.0: disabling bridge window [mem 0x00000000-0x000ff                                                                                                                                   fff pref] to [bus 01] (unused)
+[    2.872000] pci 0000:00:00.0: bridge window [mem 0xb8000000-0xb9ffffff]: assi                                                                                                                                   gned
+[    2.880000] pci 0000:00:00.0: bridge window [io  size 0x1000]: can't assign;                                                                                                                                    no space
+[    2.888000] pci 0000:00:00.0: bridge window [io  size 0x1000]: failed to assi                                                                                                                                   gn
+[    2.892000] pci 0000:00:00.0: bridge window [io  size 0x1000]: can't assign;                                                                                                                                    no space
+[    2.900000] pci 0000:00:00.0: bridge window [io  size 0x1000]: failed to assi                                                                                                                                   gn
+[    2.908000] pci 0000:01:00.0: BAR 0 [mem 0xb8000000-0xb9ffffff]: assigned
+[    2.916000] pci 0000:00:00.0: PCI bridge to [bus 01]
+[    2.920000] pci 0000:00:00.0:   bridge window [mem 0xb8000000-0xb9ffffff]
+[    2.928000] pci_bus 0000:00: Some PCI device resources are unassigned, try bo                                                                                                                                   oting with pci=realloc
+[    2.936000] pci_bus 0000:00: resource 4 [mem 0xb8000000-0xbaffffff]
+[    2.944000] pci_bus 0000:01: resource 0 [io  size 0x1000]
+[    2.948000] pci_bus 0000:01: resource 1 [mem 0xb8000000-0xb9ffffff]
+[    2.956000] pci_bus 0000:01: resource 2 [mem 0x00000000-0x000fffff pref disab                                                                                                                                   led]
+[    2.964000] intel-gw-pcie 18400000.pcie: host bridge /pcie@18400000 ranges:
+[    2.968000] intel-gw-pcie 18400000.pcie:      MEM 0x00b4000000..0x00b6ffffff                                                                                                                                    -> 0x00b4000000
+[    2.976000] intel-gw-pcie 18400000.pcie: config reg[1] 0xb7000000 == cpu 0xb7                                                                                                                                   000000
+[    2.976000] ; no fixup was ever needed for this devicetree
+[    2.992000] intel-gw-pcie 18400000.pcie: chiptop endian 0x4c: 0x0000c221 (in                                                                                                                                    bit 9 swap 1, out bit 8 swap 0)
+[    3.212000] intel-gw-pcie 18400000.pcie: PCIe Gen.2 x1 link up
+[    3.216000] intel-gw-pcie 18400000.pcie: No iATU regions found
+[    3.320000] intel-gw-pcie 18400000.pcie: PCIe Gen.2 x1 link up
+[    3.324000] intel-gw-pcie 18400000.pcie: PCI host bridge to bus 0001:00
+[    3.328000] pci_bus 0001:00: root bus resource [bus 00-07]
+[    3.336000] pci_bus 0001:00: root bus resource [mem 0xb4000000-0xb6ffffff]
+[    3.340000] pci 0001:00:00.0: [1bef:0030] type 01 class 0x060400 PCIe Root Po                                                                                                                                   rt
+[    3.348000] pci_bus 0001:00: 2-byte config write to 0001:00:00.0 offset 0x4 m                                                                                                                                   ay corrupt adjacent RW1C bits
+[    3.360000] pci 0001:00:00.0: PCI bridge to [bus 01-ff]
+[    3.364000] pci 0001:00:00.0:   bridge window [io  0x0000-0x0fff]
+[    3.368000] pci 0001:00:00.0:   bridge window [mem 0x00000000-0x000fffff]
+[    3.376000] pci 0001:00:00.0:   bridge window [mem 0x00000000-0x000fffff pref                                                                                                                                   ]
+[    3.384000] pci 0001:00:00.0: supports D1 D2
+[    3.388000] pci 0001:00:00.0: PME# supported from D0 D1 D3hot D3cold
+[    3.396000] pci 0001:01:00.0: [8086:09d0] type 00 class 0x0d8000 PCIe Endpoin                                                                                                                                   t
+[    3.400000] pci_bus 0001:01: 2-byte config write to 0001:01:00.0 offset 0x4 m                                                                                                                                   ay corrupt adjacent RW1C bits
+[    3.412000] pci 0001:01:00.0: BAR 0 [mem 0x00000000-0x01ffffff]
+[    3.416000] pci 0001:01:00.0: supports D1 D2
+[    3.420000] pci 0001:01:00.0: PME# supported from D0 D1 D3hot D3cold
+[    3.428000] pci 0001:01:00.0: 4.000 Gb/s available PCIe bandwidth, limited by                                                                                                                                    5.0 GT/s PCIe x1 link at 0001:00:00.0 (capable of 15.752 Gb/s with 8.0 GT/s PCI                                                                                                                                   e x2 link)
+[    3.444000] pci 0001:00:00.0: PCI bridge to [bus 01-07]
+[    3.448000] pci_bus 0001:01: busn_res: [bus 01-07] end is updated to 01
+[    3.452000] pci 0001:00:00.0: disabling bridge window [mem 0x00000000-0x000ff                                                                                                                                   fff pref] to [bus 01] (unused)
+[    3.464000] pci 0001:00:00.0: bridge window [mem 0xb4000000-0xb5ffffff]: assi                                                                                                                                   gned
+[    3.472000] pci 0001:00:00.0: bridge window [io  size 0x1000]: can't assign;                                                                                                                                    no space
+[    3.480000] pci 0001:00:00.0: bridge window [io  size 0x1000]: failed to assi                                                                                                                                   gn
+[    3.484000] pci 0001:00:00.0: bridge window [io  size 0x1000]: can't assign;                                                                                                                                    no space
+[    3.492000] pci 0001:00:00.0: bridge window [io  size 0x1000]: failed to assi                                                                                                                                   gn
+[    3.500000] pci 0001:01:00.0: BAR 0 [mem 0xb4000000-0xb5ffffff]: assigned
+[    3.508000] pci 0001:00:00.0: PCI bridge to [bus 01]
+[    3.512000] pci 0001:00:00.0:   bridge window [mem 0xb4000000-0xb5ffffff]
+[    3.520000] pci_bus 0001:00: Some PCI device resources are unassigned, try bo                                                                                                                                   oting with pci=realloc
+[    3.528000] pci_bus 0001:00: resource 4 [mem 0xb4000000-0xb6ffffff]
+[    3.536000] pci_bus 0001:01: resource 0 [io  size 0x1000]
+[    3.540000] pci_bus 0001:01: resource 1 [mem 0xb4000000-0xb5ffffff]
+[    3.548000] pci_bus 0001:01: resource 2 [mem 0x00000000-0x000fffff pref disab                                                                                                                                   led]
+[    3.556000] intel-gw-pcie 18e00000.pcie: host bridge /pcie@18e00000 ranges:
+[    3.560000] intel-gw-pcie 18e00000.pcie:      MEM 0x00bc000000..0x00beffffff                                                                                                                                    -> 0x00bc000000
+[    3.568000] intel-gw-pcie 18e00000.pcie: config reg[1] 0xbf000000 == cpu 0xbf                                                                                                                                   000000
+[    3.568000] ; no fixup was ever needed for this devicetree
+[    3.584000] intel-gw-pcie 18e00000.pcie: chiptop endian 0x4c: 0x0000e221 (in                                                                                                                                    bit 13 swap 1, out bit 12 swap 0)
+[    3.804000] intel-gw-pcie 18e00000.pcie: PCIe Gen.2 x1 link up
+[    3.808000] intel-gw-pcie 18e00000.pcie: No iATU regions found
+[    3.912000] intel-gw-pcie 18e00000.pcie: PCIe Gen.2 x1 link up
+[    3.916000] intel-gw-pcie 18e00000.pcie: PCI host bridge to bus 0002:00
+[    3.920000] pci_bus 0002:00: root bus resource [bus 00-07]
+[    3.928000] pci_bus 0002:00: root bus resource [mem 0xbc000000-0xbeffffff]
+[    3.932000] pci 0002:00:00.0: [1bef:0030] type 01 class 0x060400 PCIe Root Po                                                                                                                                   rt
+[    3.940000] pci_bus 0002:00: 2-byte config write to 0002:00:00.0 offset 0x4 m                                                                                                                                   ay corrupt adjacent RW1C bits
+[    3.952000] pci 0002:00:00.0: PCI bridge to [bus 01-ff]
+[    3.956000] pci 0002:00:00.0:   bridge window [io  0x0000-0x0fff]
+[    3.960000] pci 0002:00:00.0:   bridge window [mem 0x00000000-0x000fffff]
+[    3.968000] pci 0002:00:00.0:   bridge window [mem 0x00000000-0x000fffff pref                                                                                                                                   ]
+[    3.976000] pci 0002:00:00.0: supports D1 D2
+[    3.980000] pci 0002:00:00.0: PME# supported from D0 D1 D3hot D3cold
+[    3.988000] pci 0002:01:00.0: [8086:09aa] type 00 class 0x028000 PCIe Endpoin                                                                                                                                   t
+[    3.992000] pci_bus 0002:01: 2-byte config write to 0002:01:00.0 offset 0x4 m                                                                                                                                   ay corrupt adjacent RW1C bits
+[    4.004000] pci 0002:01:00.0: BAR 0 [mem 0x00000000-0x007fffff]
+[    4.008000] pci 0002:01:00.0: supports D1 D2
+[    4.012000] pci 0002:01:00.0: PME# supported from D0 D1 D3hot D3cold
+[    4.020000] pci 0002:00:00.0: PCI bridge to [bus 01-07]
+[    4.024000] pci_bus 0002:01: busn_res: [bus 01-07] end is updated to 01
+[    4.032000] pci 0002:00:00.0: disabling bridge window [mem 0x00000000-0x000ff                                                                                                                                   fff pref] to [bus 01] (unused)
+[    4.040000] pci 0002:00:00.0: bridge window [mem 0xbc000000-0xbc7fffff]: assi                                                                                                                                   gned
+[    4.048000] pci 0002:00:00.0: bridge window [io  size 0x1000]: can't assign;                                                                                                                                    no space
+[    4.056000] pci 0002:00:00.0: bridge window [io  size 0x1000]: failed to assi                                                                                                                                   gn
+[    4.064000] pci 0002:00:00.0: bridge window [io  size 0x1000]: can't assign;                                                                                                                                    no space
+[    4.072000] pci 0002:00:00.0: bridge window [io  size 0x1000]: failed to assi                                                                                                                                   gn
+[    4.080000] pci 0002:01:00.0: BAR 0 [mem 0xbc000000-0xbc7fffff]: assigned
+[    4.084000] pci 0002:00:00.0: PCI bridge to [bus 01]
+[    4.088000] pci 0002:00:00.0:   bridge window [mem 0xbc000000-0xbc7fffff]
+[    4.096000] pci_bus 0002:00: Some PCI device resources are unassigned, try bo                                                                                                                                   oting with pci=realloc
+[    4.104000] pci_bus 0002:00: resource 4 [mem 0xbc000000-0xbeffffff]
+[    4.112000] pci_bus 0002:01: resource 0 [io  size 0x1000]
+[    4.116000] pci_bus 0002:01: resource 1 [mem 0xbc000000-0xbc7fffff]
+[    4.124000] pci_bus 0002:01: resource 2 [mem 0x00000000-0x000fffff pref disab                                                                                                                                   led]
+[    4.456000] xhci-hcd xhci-hcd.0.auto: xHCI Host Controller
+[    4.460000] xhci-hcd xhci-hcd.0.auto: new USB bus registered, assigned bus nu                                                                                                                                   mber 1
+[    4.468000] xhci-hcd xhci-hcd.0.auto: hcc params 0x0220f664 hci version 0x100                                                                                                                                    quirks 0x0000808002000010
+[    4.476000] xhci-hcd xhci-hcd.0.auto: irq 104, io mem 0x1a300000
+[    4.480000] xhci-hcd xhci-hcd.0.auto: xHCI Host Controller
+[    4.488000] xhci-hcd xhci-hcd.0.auto: new USB bus registered, assigned bus nu                                                                                                                                   mber 2
+[    4.496000] xhci-hcd xhci-hcd.0.auto: Host supports USB 3.0 SuperSpeed
+[    4.504000] hub 1-0:1.0: USB hub found
+[    4.504000] hub 1-0:1.0: 1 port detected
+[    4.508000] usb usb2: We don't know the algorithms for LPM for this host, dis                                                                                                                                   abling LPM.
+[    4.516000] hub 2-0:1.0: USB hub found
+[    4.520000] hub 2-0:1.0: 1 port detected
+[    4.848000] xhci-hcd xhci-hcd.1.auto: xHCI Host Controller
+[    4.852000] xhci-hcd xhci-hcd.1.auto: new USB bus registered, assigned bus nu                                                                                                                                   mber 3
+[    4.860000] xhci-hcd xhci-hcd.1.auto: hcc params 0x0220f664 hci version 0x100                                                                                                                                    quirks 0x0000808002000010
+[    4.868000] xhci-hcd xhci-hcd.1.auto: irq 105, io mem 0x1a500000
+[    4.872000] xhci-hcd xhci-hcd.1.auto: xHCI Host Controller
+[    4.880000] xhci-hcd xhci-hcd.1.auto: new USB bus registered, assigned bus nu                                                                                                                                   mber 4
+[    4.888000] xhci-hcd xhci-hcd.1.auto: Host supports USB 3.0 SuperSpeed
+[    4.896000] hub 3-0:1.0: USB hub found
+[    4.896000] hub 3-0:1.0: 1 port detected
+[    4.900000] usb usb4: We don't know the algorithms for LPM for this host, dis                                                                                                                                   abling LPM.
+[    4.908000] hub 4-0:1.0: USB hub found
+[    4.912000] hub 4-0:1.0: 1 port detected
+[    4.916000] UBI error: no valid UBI magic found inside mtd4
+[    4.924000] clk: Disabling un[    4.996000] Freeing unused kernel: 18212k fre                                                                                                                                   ed
+[    5.000000] This architecture does not have kernel memory protection.
+[    5.008000] Run /init as init process
+[    5.440000] init: Console is alive
+[    5.444000] init: - watchdog -
+[    5.460000] kmodloader: loading kernel modules from /etc/modules-boot.d/*
+[    5.508000] gpio_button_hotplug: loading out-of-tree module taints kernel.
+[    5.528000] SCSI subsystem initialized
+[    5.852000] gswip-xrx500 1c000000.switch: configuring for fixed/internal link                                                                                                                                    mode
+[    5.860000] gswip-xrx500 1c000000.switch: Link is Up - 1Gbps/Full - flow cont                                                                                                                                   rol off
+[    5.868000] gswip-xrx500 1c000000.switch lan4 (uninitialized): PHY [1c000000.                                                                                                                                   switch-mii:02] driver [Intel XWAY PHY11G (xRX v1.2 integrated)] (irq=POLL)
+[    5.888000] gswip-xrx500 1c000000.switch lan3 (uninitialized): PHY [1c000000.                                                                                                                                   switch-mii:03] driver [Intel XWAY PHY11G (xRX v1.2 integrated)] (irq=POLL)
+[    5.904000] gswip-xrx500 1c000000.switch lan2 (uninitialized): PHY [1c000000.                                                                                                                                   switch-mii:04] driver [Intel XWAY PHY11G (xRX v1.2 integrated)] (irq=POLL)
+[    5.920000] gswip-xrx500 1c000000.switch lan1 (uninitialized): PHY [1c000000.                                                                                                                                   switch-mii:05] driver [Intel XWAY PHY11G (xRX v1.2 integrated)] (irq=POLL)
+[    5.936000] xrx500-cbm 1e700000.ethernet:ethernet@0 cbm0: entered promiscuous                                                                                                                                    mode
+[    5.940000] DSA: tree 0 setup
+[    5.944000] gswip-xrx500 1c000000.switch: probed GSWIP version 30 mod 0
+[    6.044000] gswip-xrx500 1a000000.switch: configuring for fixed/internal link                                                                                                                                    mode
+[    6.052000] gswip-xrx500 1a000000.switch: Link is Up - 1Gbps/Full - flow cont                                                                                                                                   rol off
+[    6.056000] gswip-xrx500 1a000000.switch wan (uninitialized): PHY [1a000000.s                                                                                                                                   witch-mii:01] driver [Intel XWAY PHY11G (xRX v1.2 integrated)] (irq=POLL)
+[    6.072000] xrx500-cbm 1e700000.ethernet:ethernet@1 cbm1: entered promiscuous                                                                                                                                    mode
+[    6.080000] DSA: tree 1 setup
+[    6.084000] gswip-xrx500 1a000000.switch: probed GSWIP version 30 mod 0
+[    6.092000] lgm-ssoled 16d00000.ssogpio: sso LED init success!
+[    6.104000] usbcore: registered new interface driver usb-storage
+[    6.112000] usbcore: registered new interface driver uas
+[    6.120000] kmodloader: done loading kernel modules from /etc/modules-boot.d/                                                                                                                                   *
+[    6.136000] init: - preinit -
+[    6.668000] random: crng init done
+[    8.392000] xrx500-cbm 1e700000.ethernet:ethernet@0 cbm0: receive ring at 0x2                                                                                                                                   2857000: 256 descriptors of 1544 bytes, offset 0
+[    8.400000] xrx500-cbm 1e700000.ethernet:ethernet@0 cbm0: receive channel tak                                                                                                                                   en, engine at 0x22857000
+[    8.412000] gswip-xrx500 1c000000.switch lan1: configuring for phy/internal l                                                                                                                                   ink mode
+Press the [f] key and hit [enter] to enter failsafe mode
+Press the [1], [2], [3] or [4] key and hit [enter] to select the debug level
+[   11.484000] gswip-xrx500 1c000000.switch lan1: Link is Up - 1Gbps/Full - flow control rx/tx
+- generating board file -
+[   12.940000] gswip-xrx500 1c000000.switch lan1: Link is Down
+[   12.952000] procd: - early -
+[   12.956000] procd: - watchdog -
+[   13.512000] procd: - watchdog -
+[   13.512000] procd: - ubus -
+[   13.572000] procd: - init -
+Please press Enter to activate this console.
+[   14.056000] kmodloader: loading kernel modules from /etc/modules.d/*
+[   14.768000] urngd: v1.0.2 started.
+[   14.880000] Loading modules backported from Linux version v7.2-0-g8d3ae59288f1
+[   14.884000] Backport generated by backports.git v5.15.58-1-198-g2580fa90cb79
+[   15.032000] PPP generic driver version 2.4.2
+[   15.040000] NET: Registered PF_PPPOX protocol family
+[   15.092000] kmodloader: done loading kernel modules from /etc/modules.d/*
+[   40.328000] xrx500-cbm 1e700000.ethernet:ethernet@0 cbm0: receive ring at 0x22857000: 256 descriptors of 1544 bytes, offset 0
+[   40.340000] xrx500-cbm 1e700000.ethernet:ethernet@0 cbm0: receive channel taken, engine at 0x22857000
+[   40.352000] gswip-xrx500 1c000000.switch lan1: configuring for phy/internal link mode
+[   40.368000] br-lan: port 1(lan1) entered blocking state
+[   40.372000] br-lan: port 1(lan1) entered disabled state
+[   40.380000] gswip-xrx500 1c000000.switch lan1: entered allmulticast mode
+[   40.384000] xrx500-cbm 1e700000.ethernet:ethernet@0 cbm0: entered allmulticast mode
+[   40.420000] gswip-xrx500 1c000000.switch lan1: entered promiscuous mode
+[   40.440000] gswip-xrx500 1c000000.switch lan2: configuring for phy/internal link mode
+[   40.448000] br-lan: port 2(lan2) entered blocking state
+[   40.452000] br-lan: port 2(lan2) entered disabled state
+[   40.460000] gswip-xrx500 1c000000.switch lan2: entered allmulticast mode
+[   40.492000] gswip-xrx500 1c000000.switch lan2: entered promiscuous mode
+[   40.500000] gswip-xrx500 1c000000.switch lan3: configuring for phy/internal link mode
+[   40.508000] br-lan: port 3(lan3) entered blocking state
+[   40.512000] br-lan: port 3(lan3) entered disabled state
+[   40.520000] gswip-xrx500 1c000000.switch lan3: entered allmulticast mode
+[   40.548000] gswip-xrx500 1c000000.switch lan3: entered promiscuous mode
+[   40.560000] gswip-xrx500 1c000000.switch lan4: configuring for phy/internal link mode
+[   40.568000] br-lan: port 4(lan4) entered blocking state
+[   40.572000] br-lan: port 4(lan4) entered disabled state
+[   40.576000] gswip-xrx500 1c000000.switch lan4: entered allmulticast mode
+[   40.604000] gswip-xrx500 1c000000.switch lan4: entered promiscuous mode
+[   40.628000] xrx500-cbm 1e700000.ethernet:ethernet@1 cbm1: receive ring at 0x22abf000: 256 descriptors of 1544 bytes, offset 0
+[   40.636000] xrx500-cbm 1e700000.ethernet:ethernet@1 cbm1: receive channel taken, engine at 0x22abf000
+[   40.652000] gswip-xrx500 1a000000.switch wan: configuring for phy/internal link mode
+[   45.468000] gswip-xrx500 1c000000.switch lan1: Link is Up - 1Gbps/Full - flow control rx/tx
+[   45.472000] br-lan: port 1(lan1) entered blocking state
+[   45.480000] br-lan: port 1(lan1) entered forwarding state
+
+
+
+BusyBox v1.38.0 (2026-05-13 02:19:59 UTC) built-in shell (ash)
+
+  _______                     ________        __
+ |       |.-----.-----.-----.|  |  |  |.----.|  |_
+ |   -   ||  _  |  -__|     ||  |  |  ||   _||   _|
+ |_______||   __|_____|__|__||________||__|  |____|
+          |__| W I R E L E S S   F R E E D O M
+ -----------------------------------------------------
+ OpenWrt SNAPSHOT, r36395-0cde82a688
+ -----------------------------------------------------
+
+ === WARNING! =====================================
+ There is no root password defined on this device!
+ Use the "passwd" command to set up a new password
+ in order to prevent unauthorized SSH logins.
+ --------------------------------------------------
+
+root@OpenWrt:~#
+
